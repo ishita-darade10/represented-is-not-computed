@@ -1,0 +1,1453 @@
+checkpoint,seed,num_layers,representation_index,layer_label,stream,target,target_label,cv_r2,n_examples,cv_folds
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,N_tag,BpowD,B^D,-0.09826354696490336,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,N_tag,NdivBpowD,N / B^D,-0.3055546564862209,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,N_tag,floorNdivBpowD,floor(N / B^D),-0.3038081202942816,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5683665798460951,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,N_hundreds,BpowD,B^D,-0.04728749870750097,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,N_hundreds,NdivBpowD,N / B^D,-0.17340195173382578,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.172129127465449,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.44979206723705767,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,N_tens,BpowD,B^D,-0.10173054242147886,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,N_tens,NdivBpowD,N / B^D,-0.3075684382039545,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,N_tens,floorNdivBpowD,floor(N / B^D),-0.3058295989139983,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5722272574146038,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,N_ones,BpowD,B^D,-0.10564830638111192,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,N_ones,NdivBpowD,N / B^D,-0.31290072466411795,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,N_ones,floorNdivBpowD,floor(N / B^D),-0.31115759880731597,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.574611813702778,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,B_tag,BpowD,B^D,-0.09826354696490336,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,B_tag,NdivBpowD,N / B^D,-0.3055546564862209,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,B_tag,floorNdivBpowD,floor(N / B^D),-0.3038081202942816,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5683665798460951,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,B_tens,BpowD,B^D,-0.07019178812337934,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,B_tens,NdivBpowD,N / B^D,-0.3032802764759886,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,B_tens,floorNdivBpowD,floor(N / B^D),-0.3015250220305164,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.43170077223749176,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,B_ones,BpowD,B^D,-0.07171500616866089,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,B_ones,NdivBpowD,N / B^D,-0.3057345709937045,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,B_ones,floorNdivBpowD,floor(N / B^D),-0.30398349088478416,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.4716189067340858,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,D_tag,BpowD,B^D,-0.09826354696490336,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,D_tag,NdivBpowD,N / B^D,-0.3055546564862209,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,D_tag,floorNdivBpowD,floor(N / B^D),-0.3038081202942816,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5683665798460951,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,D_ones,BpowD,B^D,0.17809632724811394,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,D_ones,NdivBpowD,N / B^D,0.36734613475755407,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,D_ones,floorNdivBpowD,floor(N / B^D),0.36948334528915316,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.27308962165672257,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,O[0],BpowD,B^D,-0.09826354696490336,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,O[0],NdivBpowD,N / B^D,-0.3055546564862209,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,O[0],floorNdivBpowD,floor(N / B^D),-0.3038081202942816,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5683665798460951,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,O[1],BpowD,B^D,-0.07969116332381558,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,O[1],NdivBpowD,N / B^D,-0.2581890175011266,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,O[1],floorNdivBpowD,floor(N / B^D),-0.2564287885560664,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,0,input,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.2141488537562653,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,N_tag,BpowD,B^D,-0.09826354696490336,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,N_tag,NdivBpowD,N / B^D,-0.3055546564862209,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,N_tag,floorNdivBpowD,floor(N / B^D),-0.3038081202942816,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5683665798460951,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,N_hundreds,BpowD,B^D,-0.06358098422104357,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,N_hundreds,NdivBpowD,N / B^D,-0.2414220884534298,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.23979855533227026,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5688624835415158,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,N_tens,BpowD,B^D,-0.0712793628936497,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,N_tens,NdivBpowD,N / B^D,-0.15792131667713205,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,N_tens,floorNdivBpowD,floor(N / B^D),-0.1569829600741544,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.369388381924786,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,N_ones,BpowD,B^D,-0.08417027848967554,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,N_ones,NdivBpowD,N / B^D,-0.09974058730841558,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,N_ones,floorNdivBpowD,floor(N / B^D),-0.09953943260984333,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.20065300803557454,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,B_tag,BpowD,B^D,-0.09721712322202195,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,B_tag,NdivBpowD,N / B^D,-0.1645261562283707,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,B_tag,floorNdivBpowD,floor(N / B^D),-0.16400145743122066,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.32803101079765223,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,B_tens,BpowD,B^D,-0.12618620525471386,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,B_tens,NdivBpowD,N / B^D,-0.16864459838603912,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,B_tens,floorNdivBpowD,floor(N / B^D),-0.16883539964811312,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.09141575054911719,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,B_ones,BpowD,B^D,-0.061321884928170145,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,B_ones,NdivBpowD,N / B^D,-0.18281373393202735,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,B_ones,floorNdivBpowD,floor(N / B^D),-0.18299622805816423,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.0014389945850153741,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,D_tag,BpowD,B^D,-0.12503330757301628,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,D_tag,NdivBpowD,N / B^D,-0.18990999916672094,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,D_tag,floorNdivBpowD,floor(N / B^D),-0.19006355921696172,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.001652804007752051,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,D_ones,BpowD,B^D,0.9991126477586253,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,D_ones,NdivBpowD,N / B^D,0.9865643635337882,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,D_ones,floorNdivBpowD,floor(N / B^D),0.9865721420853815,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5508142528489838,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,O[0],BpowD,B^D,0.7050148868849904,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,O[0],NdivBpowD,N / B^D,0.9037798911490024,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,O[0],floorNdivBpowD,floor(N / B^D),0.9038933212468219,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.49063121216841177,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,O[1],BpowD,B^D,0.5862210044603736,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,O[1],NdivBpowD,N / B^D,0.8570767718777205,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,O[1],floorNdivBpowD,floor(N / B^D),0.8571983782441066,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,1,0,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.857331048367068,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,N_tag,BpowD,B^D,-0.09826354696490336,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,N_tag,NdivBpowD,N / B^D,-0.3055546564862209,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,N_tag,floorNdivBpowD,floor(N / B^D),-0.3038081202942816,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5683665798460951,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,N_hundreds,BpowD,B^D,-0.06358098422104294,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,N_hundreds,NdivBpowD,N / B^D,-0.24142208845343024,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.23979855533227007,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5688624835415158,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,N_tens,BpowD,B^D,-0.08365827694601094,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,N_tens,NdivBpowD,N / B^D,-0.22301869469003224,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,N_tens,floorNdivBpowD,floor(N / B^D),-0.22175499635902263,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.4953111228109595,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,N_ones,BpowD,B^D,-0.12230915378997213,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,N_ones,NdivBpowD,N / B^D,-0.21899239879320787,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,N_ones,floorNdivBpowD,floor(N / B^D),-0.2180986613611306,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.42516411283476624,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,B_tag,BpowD,B^D,-0.14188378468986623,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,B_tag,NdivBpowD,N / B^D,-0.2855167462454343,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,B_tag,floorNdivBpowD,floor(N / B^D),-0.2842707131198077,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5514050877854618,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,B_tens,BpowD,B^D,-0.1693725877446889,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,B_tens,NdivBpowD,N / B^D,-0.19250812921484145,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,B_tens,floorNdivBpowD,floor(N / B^D),-0.19269762778794894,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.1824420455902393,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,B_ones,BpowD,B^D,-0.13766371440934044,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,B_ones,NdivBpowD,N / B^D,-0.19644052211352045,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,B_ones,floorNdivBpowD,floor(N / B^D),-0.19661299349737432,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.02102710615483936,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,D_tag,BpowD,B^D,-0.08877021360067502,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,D_tag,NdivBpowD,N / B^D,-0.1632809643574246,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,D_tag,floorNdivBpowD,floor(N / B^D),-0.16346196953490505,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.027055068038778506,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,D_ones,BpowD,B^D,0.9723828475334549,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,D_ones,NdivBpowD,N / B^D,0.8747552543563861,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,D_ones,floorNdivBpowD,floor(N / B^D),0.8749054610000837,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5553981040472266,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,O[0],BpowD,B^D,0.8174720665759772,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,O[0],NdivBpowD,N / B^D,0.9301022349188555,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,O[0],floorNdivBpowD,floor(N / B^D),0.9301861536987639,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.5530025884849978,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,O[1],BpowD,B^D,0.8244345179352999,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,O[1],NdivBpowD,N / B^D,0.9101068949746965,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,O[1],floorNdivBpowD,floor(N / B^D),0.9101834847601789,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,2,1,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8813091722121881,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,N_tag,BpowD,B^D,-0.09826354696490336,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,N_tag,NdivBpowD,N / B^D,-0.3055546564862209,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,N_tag,floorNdivBpowD,floor(N / B^D),-0.3038081202942816,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5683665798460951,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,N_hundreds,BpowD,B^D,-0.06358098422104361,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,N_hundreds,NdivBpowD,N / B^D,-0.24142208845343033,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.23979855533227074,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5688624835415163,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,N_tens,BpowD,B^D,-0.07127936289346337,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,N_tens,NdivBpowD,N / B^D,-0.15792131667756898,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,N_tens,floorNdivBpowD,floor(N / B^D),-0.15698296007458562,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.36938838192714873,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,N_ones,BpowD,B^D,-0.0987622449406758,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,N_ones,NdivBpowD,N / B^D,-0.15677998459323214,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,N_ones,floorNdivBpowD,floor(N / B^D),-0.1562521237631534,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3166638992778096,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,B_tag,BpowD,B^D,-0.10771720579954783,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,B_tag,NdivBpowD,N / B^D,-0.16195298636628933,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,B_tag,floorNdivBpowD,floor(N / B^D),-0.16138595514461915,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.30915320523634093,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,B_tens,BpowD,B^D,-0.15101260110904707,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,B_tens,NdivBpowD,N / B^D,-0.18988461605304746,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,B_tens,floorNdivBpowD,floor(N / B^D),-0.19008182803919133,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.14468172655126432,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,B_ones,BpowD,B^D,-0.07675976476761652,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,B_ones,NdivBpowD,N / B^D,-0.17328444076701105,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,B_ones,floorNdivBpowD,floor(N / B^D),-0.1734653420358307,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.010693486585167288,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,D_tag,BpowD,B^D,-0.08238469840203218,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,D_tag,NdivBpowD,N / B^D,-0.16421368738759531,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,D_tag,floorNdivBpowD,floor(N / B^D),-0.16439624432066363,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.016438540679688862,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,D_ones,BpowD,B^D,0.9545000265776669,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,D_ones,NdivBpowD,N / B^D,0.9680267687900684,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,D_ones,floorNdivBpowD,floor(N / B^D),0.9680613039465653,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5454749114781829,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,O[0],BpowD,B^D,0.7345153047532931,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,O[0],NdivBpowD,N / B^D,0.9493024053723313,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,O[0],floorNdivBpowD,floor(N / B^D),0.9493353182887546,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.5560191776897101,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,O[1],BpowD,B^D,0.7550627739509685,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,O[1],NdivBpowD,N / B^D,0.9061286530173911,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,O[1],floorNdivBpowD,floor(N / B^D),0.9062066540303727,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,3,2,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.880504963919256,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,N_tag,BpowD,B^D,-0.09826354696490336,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,N_tag,NdivBpowD,N / B^D,-0.3055546564862209,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,N_tag,floorNdivBpowD,floor(N / B^D),-0.3038081202942816,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5683665798460951,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,N_hundreds,BpowD,B^D,-0.06358098422104357,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,N_hundreds,NdivBpowD,N / B^D,-0.24142208845342988,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.23979855533227007,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5688624835415158,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,N_tens,BpowD,B^D,-0.06917450774515373,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,N_tens,NdivBpowD,N / B^D,-0.16691258539348247,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,N_tens,floorNdivBpowD,floor(N / B^D),-0.16597164704077055,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.38063215157055036,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,N_ones,BpowD,B^D,-0.11050775671405337,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,N_ones,NdivBpowD,N / B^D,-0.16153038520911828,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,N_ones,floorNdivBpowD,floor(N / B^D),-0.16095841342327494,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3135092522296421,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,B_tag,BpowD,B^D,-0.11988200086403729,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,B_tag,NdivBpowD,N / B^D,-0.21555815618692753,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,B_tag,floorNdivBpowD,floor(N / B^D),-0.2146748376348996,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.431537755513851,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,B_tens,BpowD,B^D,-0.13859900887740118,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,B_tens,NdivBpowD,N / B^D,-0.18548308964530294,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,B_tens,floorNdivBpowD,floor(N / B^D),-0.18568233140182286,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.12899235832136635,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,B_ones,BpowD,B^D,-0.07878541103216105,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,B_ones,NdivBpowD,N / B^D,-0.16618392345941624,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,B_ones,floorNdivBpowD,floor(N / B^D),-0.16637608651021668,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.011375714419080186,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,D_tag,BpowD,B^D,-0.087968960588928,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,D_tag,NdivBpowD,N / B^D,-0.16854014919025756,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,D_tag,floorNdivBpowD,floor(N / B^D),-0.1687143360330353,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.01577509766254879,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,D_ones,BpowD,B^D,0.9327602880950391,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,D_ones,NdivBpowD,N / B^D,0.9734456119751929,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,D_ones,floorNdivBpowD,floor(N / B^D),0.9734740961873968,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5427066776980913,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,O[0],BpowD,B^D,0.7080475888106397,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,O[0],NdivBpowD,N / B^D,0.9311934671971145,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,O[0],floorNdivBpowD,floor(N / B^D),0.9312307114273175,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.5758988532338373,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,O[1],BpowD,B^D,0.7507730977293778,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,O[1],NdivBpowD,N / B^D,0.8762715165345971,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,O[1],floorNdivBpowD,floor(N / B^D),0.8763665519668052,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,4,3,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8760761974189061,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,N_tag,BpowD,B^D,-0.09826354696490336,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,N_tag,NdivBpowD,N / B^D,-0.3055546564862209,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,N_tag,floorNdivBpowD,floor(N / B^D),-0.3038081202942816,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5683665798460951,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,N_hundreds,BpowD,B^D,-0.06358098422104361,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,N_hundreds,NdivBpowD,N / B^D,-0.24142208845343,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.23979855533226985,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5688624835415154,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,N_tens,BpowD,B^D,-0.10209552884858439,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,N_tens,NdivBpowD,N / B^D,-0.2821801475090887,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,N_tens,floorNdivBpowD,floor(N / B^D),-0.2805669758421879,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.604869857509857,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,N_ones,BpowD,B^D,-0.0841702969499523,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,N_ones,NdivBpowD,N / B^D,-0.09974057223840327,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,N_ones,floorNdivBpowD,floor(N / B^D),-0.0995394176187668,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.2006529915681718,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,B_tag,BpowD,B^D,-0.10374492776283044,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,B_tag,NdivBpowD,N / B^D,-0.16626491983061076,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,B_tag,floorNdivBpowD,floor(N / B^D),-0.1657114695172433,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3268939665877823,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,B_tens,BpowD,B^D,-0.12669633962616977,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,B_tens,NdivBpowD,N / B^D,-0.18807416866785415,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,B_tens,floorNdivBpowD,floor(N / B^D),-0.18826989795751964,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.11257496298494049,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,B_ones,BpowD,B^D,-0.07116178479015003,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,B_ones,NdivBpowD,N / B^D,-0.1636263181144125,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,B_ones,floorNdivBpowD,floor(N / B^D),-0.16381672816424686,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.009954931836995206,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,D_tag,BpowD,B^D,-0.08596527244429142,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,D_tag,NdivBpowD,N / B^D,-0.16713510243651825,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,D_tag,floorNdivBpowD,floor(N / B^D),-0.16730484058971187,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.012154126563662238,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,D_ones,BpowD,B^D,0.9200415352633711,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,D_ones,NdivBpowD,N / B^D,0.9752862001468815,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,D_ones,floorNdivBpowD,floor(N / B^D),0.9753139844046761,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5506196723252381,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,O[0],BpowD,B^D,0.6975264817340484,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,O[0],NdivBpowD,N / B^D,0.9220261400049866,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,O[0],floorNdivBpowD,floor(N / B^D),0.9220787562659174,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.6094168565908319,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,O[1],BpowD,B^D,0.7126392892515341,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,O[1],NdivBpowD,N / B^D,0.8663914659014672,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,O[1],floorNdivBpowD,floor(N / B^D),0.866516065702745,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,5,4,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8786805113615881,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,N_tag,BpowD,B^D,-0.09826354696490336,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,N_tag,NdivBpowD,N / B^D,-0.3055546564862209,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,N_tag,floorNdivBpowD,floor(N / B^D),-0.3038081202942816,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5683665798460951,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,N_hundreds,BpowD,B^D,-0.06358098422104339,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,N_hundreds,NdivBpowD,N / B^D,-0.24142208845342994,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.23979855533227026,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5688624835415159,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,N_tens,BpowD,B^D,-0.08365827694604278,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,N_tens,NdivBpowD,N / B^D,-0.2230186946901084,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,N_tens,floorNdivBpowD,floor(N / B^D),-0.22175499635909834,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.49531112281090833,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,N_ones,BpowD,B^D,-0.12207413277534833,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,N_ones,NdivBpowD,N / B^D,-0.22546569260846483,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,N_ones,floorNdivBpowD,floor(N / B^D),-0.2245617251372413,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.4374117758176461,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,B_tag,BpowD,B^D,-0.10617208068775445,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,B_tag,NdivBpowD,N / B^D,-0.16969916235605806,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,B_tag,floorNdivBpowD,floor(N / B^D),-0.1691352931626406,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.320520324020014,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,B_tens,BpowD,B^D,-0.14104795473311205,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,B_tens,NdivBpowD,N / B^D,-0.19332011890476072,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,B_tens,floorNdivBpowD,floor(N / B^D),-0.1935121170636361,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.12376968480651347,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,B_ones,BpowD,B^D,-0.06320221944679391,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,B_ones,NdivBpowD,N / B^D,-0.1645336781265434,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,B_ones,floorNdivBpowD,floor(N / B^D),-0.16472236797949366,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.015142345768535704,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,D_tag,BpowD,B^D,-0.08734908981903404,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,D_tag,NdivBpowD,N / B^D,-0.16774788739350552,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,D_tag,floorNdivBpowD,floor(N / B^D),-0.16793427248711237,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.009364559487025947,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,D_ones,BpowD,B^D,0.9225022136799781,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,D_ones,NdivBpowD,N / B^D,0.9696410414868082,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,D_ones,floorNdivBpowD,floor(N / B^D),0.9696806228126832,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5464748566154469,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,O[0],BpowD,B^D,0.6793185530237259,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,O[0],NdivBpowD,N / B^D,0.9080727638672036,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,O[0],floorNdivBpowD,floor(N / B^D),0.9081414394479601,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.641794416701247,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,O[1],BpowD,B^D,0.6968015891141007,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,O[1],NdivBpowD,N / B^D,0.8518142631119939,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,O[1],floorNdivBpowD,floor(N / B^D),0.8519630576428339,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,6,5,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.88285250858035,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,N_tag,BpowD,B^D,-0.09826354696490336,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,N_tag,NdivBpowD,N / B^D,-0.3055546564862209,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,N_tag,floorNdivBpowD,floor(N / B^D),-0.3038081202942816,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5683665798460951,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,N_hundreds,BpowD,B^D,-0.06358098422104405,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,N_hundreds,NdivBpowD,N / B^D,-0.24142208845343002,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.23979855533227012,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5688624835415155,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,N_tens,BpowD,B^D,-0.10209552884845215,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,N_tens,NdivBpowD,N / B^D,-0.28218014750898496,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,N_tens,floorNdivBpowD,floor(N / B^D),-0.2805669758420851,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6048698575101568,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,N_ones,BpowD,B^D,-0.08043303992724979,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,N_ones,NdivBpowD,N / B^D,-0.09757921179959328,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,N_ones,floorNdivBpowD,floor(N / B^D),-0.09740186812740714,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.20614609004239776,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,B_tag,BpowD,B^D,-0.09721711984687116,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,B_tag,NdivBpowD,N / B^D,-0.164526160543488,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,B_tag,floorNdivBpowD,floor(N / B^D),-0.16400146174176924,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.32803101808123264,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,B_tens,BpowD,B^D,-0.146305637774147,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,B_tens,NdivBpowD,N / B^D,-0.19192415551829062,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,B_tens,floorNdivBpowD,floor(N / B^D),-0.19210573943159867,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.10838498505181127,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,B_ones,BpowD,B^D,-0.0675098469100556,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,B_ones,NdivBpowD,N / B^D,-0.16370934130928658,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,B_ones,floorNdivBpowD,floor(N / B^D),-0.1639043864993071,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.021409876739969413,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,D_tag,BpowD,B^D,-0.07732102714262368,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,D_tag,NdivBpowD,N / B^D,-0.1715686073059035,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,D_tag,floorNdivBpowD,floor(N / B^D),-0.17175442619508008,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.01591159918138214,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,D_ones,BpowD,B^D,0.9112917717518959,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,D_ones,NdivBpowD,N / B^D,0.9773523351405696,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,D_ones,floorNdivBpowD,floor(N / B^D),0.9773709052362639,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.537640066440807,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,O[0],BpowD,B^D,0.6801203180574122,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,O[0],NdivBpowD,N / B^D,0.8943911736643422,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,O[0],floorNdivBpowD,floor(N / B^D),0.8944711793899668,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.695692318401877,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,O[1],BpowD,B^D,0.698044004354359,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,O[1],NdivBpowD,N / B^D,0.8385307817262777,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,O[1],floorNdivBpowD,floor(N / B^D),0.8387045058210825,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,7,6,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8896726839762243,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,N_tag,BpowD,B^D,-0.09826354696490336,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,N_tag,NdivBpowD,N / B^D,-0.3055546564862209,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,N_tag,floorNdivBpowD,floor(N / B^D),-0.3038081202942816,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5683665798460951,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,N_hundreds,BpowD,B^D,-0.06358098422104344,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,N_hundreds,NdivBpowD,N / B^D,-0.24142208845343022,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.23979855533226999,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5688624835415161,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,N_tens,BpowD,B^D,-0.0497053922449127,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,N_tens,NdivBpowD,N / B^D,-0.0990056194374418,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,N_tens,floorNdivBpowD,floor(N / B^D),-0.09842480925338945,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.25451275724940847,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,N_ones,BpowD,B^D,-0.08262517183902389,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,N_ones,NdivBpowD,N / B^D,-0.10748674821841978,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,N_ones,floorNdivBpowD,floor(N / B^D),-0.10728875562704406,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.21202011035305457,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,B_tag,BpowD,B^D,-0.12509970470572393,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,B_tag,NdivBpowD,N / B^D,-0.21856979754436262,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,B_tag,floorNdivBpowD,floor(N / B^D),-0.21767111954813329,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.429520159926488,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,B_tens,BpowD,B^D,-0.13417483361181817,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,B_tens,NdivBpowD,N / B^D,-0.18291238342173424,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,B_tens,floorNdivBpowD,floor(N / B^D),-0.18309590447560814,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.10684509702466922,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,B_ones,BpowD,B^D,-0.07252845743204095,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,B_ones,NdivBpowD,N / B^D,-0.16624468347741303,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,B_ones,floorNdivBpowD,floor(N / B^D),-0.16641963235742246,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.019204698579145595,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,D_tag,BpowD,B^D,-0.07939634595421759,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,D_tag,NdivBpowD,N / B^D,-0.162041176882247,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,D_tag,floorNdivBpowD,floor(N / B^D),-0.16221957102234147,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.016119830654243782,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,D_ones,BpowD,B^D,0.8995351969324702,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,D_ones,NdivBpowD,N / B^D,0.9733790066796505,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,D_ones,floorNdivBpowD,floor(N / B^D),0.9734055398832892,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.539386304743839,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,O[0],BpowD,B^D,0.6697876715597793,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,O[0],NdivBpowD,N / B^D,0.882834569158393,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,O[0],floorNdivBpowD,floor(N / B^D),0.88293573948574,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.7541185786202818,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,O[1],BpowD,B^D,0.6835984400619876,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,O[1],NdivBpowD,N / B^D,0.8199870206104434,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,O[1],floorNdivBpowD,floor(N / B^D),0.8201817952480065,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,8,7,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.9053183277178274,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,N_tag,BpowD,B^D,-0.09826354696490336,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,N_tag,NdivBpowD,N / B^D,-0.3055546564862209,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,N_tag,floorNdivBpowD,floor(N / B^D),-0.3038081202942816,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5683665798460951,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,N_hundreds,BpowD,B^D,-0.06358098422104352,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,N_hundreds,NdivBpowD,N / B^D,-0.24142208845343077,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.2397985553322703,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5688624835415158,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,N_tens,BpowD,B^D,-0.08761175964755105,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,N_tens,NdivBpowD,N / B^D,-0.2260740382123445,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,N_tens,floorNdivBpowD,floor(N / B^D),-0.22478362652374181,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.4901908862697158,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,N_ones,BpowD,B^D,-0.11833687575305185,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,N_ones,NdivBpowD,N / B^D,-0.2233043321705001,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,N_ones,floorNdivBpowD,floor(N / B^D),-0.2224241756467275,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.44290487429202036,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,B_tag,BpowD,B^D,-0.10771720579786556,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,B_tag,NdivBpowD,N / B^D,-0.1619529863747577,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,B_tag,floorNdivBpowD,floor(N / B^D),-0.16138595515306217,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3091532052108657,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,B_tens,BpowD,B^D,-0.14367441666570685,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,B_tens,NdivBpowD,N / B^D,-0.17984320654535052,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,B_tens,floorNdivBpowD,floor(N / B^D),-0.18002325166160787,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.10739133172840423,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,B_ones,BpowD,B^D,-0.06947258861331966,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,B_ones,NdivBpowD,N / B^D,-0.16365393546758716,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,B_ones,floorNdivBpowD,floor(N / B^D),-0.16383678287007317,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.013777637440540346,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,D_tag,BpowD,B^D,-0.08113402567737835,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,D_tag,NdivBpowD,N / B^D,-0.16448504740022094,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,D_tag,floorNdivBpowD,floor(N / B^D),-0.16465893287246497,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.010184844971902663,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,D_ones,BpowD,B^D,0.8891936942903648,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,D_ones,NdivBpowD,N / B^D,0.9667457585220282,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,D_ones,floorNdivBpowD,floor(N / B^D),0.9667781423610966,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5336963459702803,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,O[0],BpowD,B^D,0.669358478387089,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,O[0],NdivBpowD,N / B^D,0.8691533744676588,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,O[0],floorNdivBpowD,floor(N / B^D),0.8692755808741472,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8615012747294142,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,O[1],BpowD,B^D,0.6671238850815138,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,O[1],NdivBpowD,N / B^D,0.8088210046979656,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,O[1],floorNdivBpowD,floor(N / B^D),0.8090035425116067,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,9,8,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.9117622653651292,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,N_tag,BpowD,B^D,-0.09826354696490336,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,N_tag,NdivBpowD,N / B^D,-0.3055546564862209,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,N_tag,floorNdivBpowD,floor(N / B^D),-0.3038081202942816,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5683665798460951,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,N_hundreds,BpowD,B^D,-0.06358098422104316,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,N_hundreds,NdivBpowD,N / B^D,-0.24142208845343077,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.23979855533226996,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5688624835415164,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,N_tens,BpowD,B^D,-0.0673258801919229,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,N_tens,NdivBpowD,N / B^D,-0.15486597315534276,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,N_tens,floorNdivBpowD,floor(N / B^D),-0.15395432990995123,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.374508618468276,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,N_ones,BpowD,B^D,-0.101552795857042,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,N_ones,NdivBpowD,N / B^D,-0.1563573834081322,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,N_ones,floorNdivBpowD,floor(N / B^D),-0.1558245820139504,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3210199462833829,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,B_tag,BpowD,B^D,-0.08043303992797353,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,B_tag,NdivBpowD,N / B^D,-0.09757921180613023,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,B_tag,floorNdivBpowD,floor(N / B^D),-0.09740186813393081,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.2061460900451327,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,B_tens,BpowD,B^D,-0.14254228996288903,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,B_tens,NdivBpowD,N / B^D,-0.1856793868690662,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,B_tens,floorNdivBpowD,floor(N / B^D),-0.18586609293276496,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.09863166565878641,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,B_ones,BpowD,B^D,-0.07164114149738984,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,B_ones,NdivBpowD,N / B^D,-0.1630160551563368,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,B_ones,floorNdivBpowD,floor(N / B^D),-0.16319473777445279,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.011537990489780459,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,D_tag,BpowD,B^D,-0.0737819370465123,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,D_tag,NdivBpowD,N / B^D,-0.1580673064161923,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,D_tag,floorNdivBpowD,floor(N / B^D),-0.1582531517717846,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.013116904689947062,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,D_ones,BpowD,B^D,0.900222863259434,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,D_ones,NdivBpowD,N / B^D,0.9593520384528047,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,D_ones,floorNdivBpowD,floor(N / B^D),0.959391714116783,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5354853806213072,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,O[0],BpowD,B^D,0.6797487650539622,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,O[0],NdivBpowD,N / B^D,0.8562444728826671,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,O[0],floorNdivBpowD,floor(N / B^D),0.8563639950341706,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.902174544083038,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,O[1],BpowD,B^D,0.6749951654565021,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,O[1],NdivBpowD,N / B^D,0.7899702808871295,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,O[1],floorNdivBpowD,floor(N / B^D),0.7901615195243957,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,10,9,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.9466336528559005,3848,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,N_tag,BpowD,B^D,-0.08783133771992055,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,N_tag,NdivBpowD,N / B^D,-0.30036740319717425,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,N_tag,floorNdivBpowD,floor(N / B^D),-0.29848146384645763,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41003279782186847,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,N_hundreds,BpowD,B^D,-0.05694213932403334,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,N_hundreds,NdivBpowD,N / B^D,-0.24415716163265683,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.2423717546705147,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.4105084595043369,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,N_tens,BpowD,B^D,-0.09088028199081175,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,N_tens,NdivBpowD,N / B^D,-0.3021805907840287,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,N_tens,floorNdivBpowD,floor(N / B^D),-0.30030098217700435,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.415066521556294,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,N_ones,BpowD,B^D,-0.08875651582555796,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,N_ones,NdivBpowD,N / B^D,-0.3010030880957948,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,N_ones,floorNdivBpowD,floor(N / B^D),-0.29912365143466507,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41119447103793333,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,B_tag,BpowD,B^D,-0.08783133771992055,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,B_tag,NdivBpowD,N / B^D,-0.30036740319717425,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,B_tag,floorNdivBpowD,floor(N / B^D),-0.29848146384645763,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41003279782186847,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,B_tens,BpowD,B^D,-0.04028521218076002,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,B_tens,NdivBpowD,N / B^D,-0.2980489113251723,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,B_tens,floorNdivBpowD,floor(N / B^D),-0.2961482858898022,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.20252823100794853,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,B_ones,BpowD,B^D,-0.05591820643488883,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,B_ones,NdivBpowD,N / B^D,-0.29908102377851054,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,B_ones,floorNdivBpowD,floor(N / B^D),-0.29718007737400853,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.28669609428487974,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,D_tag,BpowD,B^D,-0.08783133771992055,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,D_tag,NdivBpowD,N / B^D,-0.30036740319717425,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,D_tag,floorNdivBpowD,floor(N / B^D),-0.29848146384645763,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41003279782186847,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,D_ones,BpowD,B^D,0.1076061744454607,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,D_ones,NdivBpowD,N / B^D,0.3875642819995046,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,D_ones,floorNdivBpowD,floor(N / B^D),0.3897947694403947,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.1501799918563702,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,O[0],BpowD,B^D,-0.08783133771992055,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,O[0],NdivBpowD,N / B^D,-0.30036740319717425,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,O[0],floorNdivBpowD,floor(N / B^D),-0.29848146384645763,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41003279782186847,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,O[1],BpowD,B^D,-0.07898593243663639,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,O[1],NdivBpowD,N / B^D,-0.24930391988038442,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,O[1],floorNdivBpowD,floor(N / B^D),-0.24740711612832453,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,0,input,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.3758687081047395,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,N_tag,BpowD,B^D,-0.08783133771992055,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,N_tag,NdivBpowD,N / B^D,-0.30036740319717425,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,N_tag,floorNdivBpowD,floor(N / B^D),-0.29848146384645763,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41003279782186847,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,N_hundreds,BpowD,B^D,-0.0407226848072479,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,N_hundreds,NdivBpowD,N / B^D,-0.18644173729680227,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.18502384285455667,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.32792672925598854,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,N_tens,BpowD,B^D,-0.0728096289258267,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,N_tens,NdivBpowD,N / B^D,-0.22549602580619607,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,N_tens,floorNdivBpowD,floor(N / B^D),-0.224076075640947,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3721847147825075,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,N_ones,BpowD,B^D,-0.08968180001721784,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,N_ones,NdivBpowD,N / B^D,-0.16294550050059226,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,N_ones,floorNdivBpowD,floor(N / B^D),-0.16228342990543018,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.2570655466919228,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,B_tag,BpowD,B^D,-0.087914015008319,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,B_tag,NdivBpowD,N / B^D,-0.16618149090135673,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,B_tag,floorNdivBpowD,floor(N / B^D),-0.16551465734652554,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.2583982065789257,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,B_tens,BpowD,B^D,-0.2693317387651749,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,B_tens,NdivBpowD,N / B^D,-0.19385557768260475,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,B_tens,floorNdivBpowD,floor(N / B^D),-0.19394754192740615,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.043945282878308636,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,B_ones,BpowD,B^D,-0.05396320716893466,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,B_ones,NdivBpowD,N / B^D,-0.14425521561187563,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,B_ones,floorNdivBpowD,floor(N / B^D),-0.14434828265357375,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.09663248190331244,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,D_tag,BpowD,B^D,-0.05643146914658863,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,D_tag,NdivBpowD,N / B^D,-0.1406773145523393,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,D_tag,floorNdivBpowD,floor(N / B^D),-0.14077167752228217,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.10627736962409565,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,D_ones,BpowD,B^D,0.9955646091181934,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,D_ones,NdivBpowD,N / B^D,0.8973765982783023,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,D_ones,floorNdivBpowD,floor(N / B^D),0.8974900492935864,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5704169403177529,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,O[0],BpowD,B^D,0.6334876136553036,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,O[0],NdivBpowD,N / B^D,0.9298310486096071,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,O[0],floorNdivBpowD,floor(N / B^D),0.92987860605126,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.5415690496522989,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,O[1],BpowD,B^D,0.5012961536582384,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,O[1],NdivBpowD,N / B^D,0.8913849993698358,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,O[1],floorNdivBpowD,floor(N / B^D),0.891464016538442,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,1,0,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8363913869646573,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,N_tag,BpowD,B^D,-0.08783133771992055,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,N_tag,NdivBpowD,N / B^D,-0.30036740319717425,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,N_tag,floorNdivBpowD,floor(N / B^D),-0.29848146384645763,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41003279782186847,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,N_hundreds,BpowD,B^D,-0.05694213932403316,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,N_hundreds,NdivBpowD,N / B^D,-0.24415716163265708,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.2423717546705147,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.4105084595043357,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,N_tens,BpowD,B^D,-0.0908687326610802,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,N_tens,NdivBpowD,N / B^D,-0.2854875463523878,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,N_tens,floorNdivBpowD,floor(N / B^D),-0.2836947249068033,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.44496260355678563,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,N_ones,BpowD,B^D,-0.10841603937177,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,N_ones,NdivBpowD,N / B^D,-0.2247449796286134,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,N_ones,floorNdivBpowD,floor(N / B^D),-0.22372627597765077,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3337752954570095,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,B_tag,BpowD,B^D,-0.12400149025458367,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,B_tag,NdivBpowD,N / B^D,-0.2869944261686739,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,B_tag,floorNdivBpowD,floor(N / B^D),-0.2855739189756296,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.42254641626711775,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,B_tens,BpowD,B^D,-0.16700787442423848,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,B_tens,NdivBpowD,N / B^D,-0.17026435184211258,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,B_tens,floorNdivBpowD,floor(N / B^D),-0.17035403630961027,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,0.02154546229510368,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,B_ones,BpowD,B^D,-0.09041690479433992,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,B_ones,NdivBpowD,N / B^D,-0.14990468942252066,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,B_ones,floorNdivBpowD,floor(N / B^D),-0.14997837939338873,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.09812350509498668,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,D_tag,BpowD,B^D,-0.06992338029731068,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,D_tag,NdivBpowD,N / B^D,-0.14378204095365618,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,D_tag,floorNdivBpowD,floor(N / B^D),-0.14385107609983186,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.1215603791967124,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,D_ones,BpowD,B^D,0.8436873854181746,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,D_ones,NdivBpowD,N / B^D,0.9572636238934846,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,D_ones,floorNdivBpowD,floor(N / B^D),0.957303726997023,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5729614703002102,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,O[0],BpowD,B^D,0.8777421368967797,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,O[0],NdivBpowD,N / B^D,0.8711788241873203,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,O[0],floorNdivBpowD,floor(N / B^D),0.8713071802243277,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.5753501615397811,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,O[1],BpowD,B^D,0.8459569598450798,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,O[1],NdivBpowD,N / B^D,0.8851044497789025,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,O[1],floorNdivBpowD,floor(N / B^D),0.8852407289893058,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,2,1,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8756736311725923,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,N_tag,BpowD,B^D,-0.08783133771992055,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,N_tag,NdivBpowD,N / B^D,-0.30036740319717425,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,N_tag,floorNdivBpowD,floor(N / B^D),-0.29848146384645763,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41003279782186847,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,N_hundreds,BpowD,B^D,-0.05694213932403329,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,N_hundreds,NdivBpowD,N / B^D,-0.2441571616326567,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.2423717546705147,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41050845950433673,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,N_tens,BpowD,B^D,-0.09086873266105382,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,N_tens,NdivBpowD,N / B^D,-0.28548754635221096,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,N_tens,floorNdivBpowD,floor(N / B^D),-0.28369472490662556,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.4449626035566803,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,N_ones,BpowD,B^D,-0.12620620364446125,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,N_ones,NdivBpowD,N / B^D,-0.2886955363203162,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,N_ones,floorNdivBpowD,floor(N / B^D),-0.28727118758257186,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41307580431280755,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,B_tag,BpowD,B^D,-0.09383186897814451,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,B_tag,NdivBpowD,N / B^D,-0.16310843830153904,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,B_tag,floorNdivBpowD,floor(N / B^D),-0.16246352062594785,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.2503808192831363,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,B_tens,BpowD,B^D,-0.19111938051518007,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,B_tens,NdivBpowD,N / B^D,-0.1757715220268325,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,B_tens,floorNdivBpowD,floor(N / B^D),-0.17586735499065398,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.00012395879209652348,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,B_ones,BpowD,B^D,-0.07246552873254417,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,B_ones,NdivBpowD,N / B^D,-0.13518646049737323,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,B_ones,floorNdivBpowD,floor(N / B^D),-0.13526163001684122,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.1096229865550824,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,D_tag,BpowD,B^D,-0.05962349534403821,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,D_tag,NdivBpowD,N / B^D,-0.15675360948783018,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,D_tag,floorNdivBpowD,floor(N / B^D),-0.15682229371589856,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.11395063028660224,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,D_ones,BpowD,B^D,0.82761887237796,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,D_ones,NdivBpowD,N / B^D,0.9549988207073266,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,D_ones,floorNdivBpowD,floor(N / B^D),0.9550427676723613,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5809357111393627,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,O[0],BpowD,B^D,0.8573609657312232,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,O[0],NdivBpowD,N / B^D,0.8656902274823178,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,O[0],floorNdivBpowD,floor(N / B^D),0.865839999260699,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.5996623065807233,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,O[1],BpowD,B^D,0.8291800667164386,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,O[1],NdivBpowD,N / B^D,0.8524336770245353,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,O[1],floorNdivBpowD,floor(N / B^D),0.8525922786534595,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,3,2,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8744730966809608,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,N_tag,BpowD,B^D,-0.08783133771992055,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,N_tag,NdivBpowD,N / B^D,-0.30036740319717425,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,N_tag,floorNdivBpowD,floor(N / B^D),-0.29848146384645763,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41003279782186847,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,N_hundreds,BpowD,B^D,-0.05694213932403329,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,N_hundreds,NdivBpowD,N / B^D,-0.24415716163265686,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.24237175467051503,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.4105084595043362,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,N_tens,BpowD,B^D,-0.07452114418446901,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,N_tens,NdivBpowD,N / B^D,-0.226769612770339,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,N_tens,floorNdivBpowD,floor(N / B^D),-0.2253469843343578,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.36334427153841603,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,N_ones,BpowD,B^D,-0.1076392615819465,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,N_ones,NdivBpowD,N / B^D,-0.22859477038401238,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,N_ones,floorNdivBpowD,floor(N / B^D),-0.2275433047066581,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3404699233490857,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,B_tag,BpowD,B^D,-0.10426591741052467,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,B_tag,NdivBpowD,N / B^D,-0.2245819192048633,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,B_tag,floorNdivBpowD,floor(N / B^D),-0.22354606278287914,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.34046015580792316,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,B_tens,BpowD,B^D,-0.20241293596760507,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,B_tens,NdivBpowD,N / B^D,-0.16477448099531283,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,B_tens,floorNdivBpowD,floor(N / B^D),-0.16486366208044173,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,0.0022053567575488044,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,B_ones,BpowD,B^D,-0.05933132681661526,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,B_ones,NdivBpowD,N / B^D,-0.13876276483584937,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,B_ones,floorNdivBpowD,floor(N / B^D),-0.13884343963569687,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.12640394895342208,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,D_tag,BpowD,B^D,-0.0474503725747325,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,D_tag,NdivBpowD,N / B^D,-0.14654032804343378,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,D_tag,floorNdivBpowD,floor(N / B^D),-0.1466174864742058,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.1319785386701247,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,D_ones,BpowD,B^D,0.7884716199241992,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,D_ones,NdivBpowD,N / B^D,0.9508785186634041,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,D_ones,floorNdivBpowD,floor(N / B^D),0.9509251879370559,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5643123914982896,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,O[0],BpowD,B^D,0.8172790442361221,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,O[0],NdivBpowD,N / B^D,0.85180164729749,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,O[0],floorNdivBpowD,floor(N / B^D),0.8519447029796001,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.5940112600604037,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,O[1],BpowD,B^D,0.8133496341574229,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,O[1],NdivBpowD,N / B^D,0.8239027763570208,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,O[1],floorNdivBpowD,floor(N / B^D),0.8240887020563491,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,4,3,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8788576008887615,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,N_tag,BpowD,B^D,-0.08783133771992055,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,N_tag,NdivBpowD,N / B^D,-0.30036740319717425,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,N_tag,floorNdivBpowD,floor(N / B^D),-0.29848146384645763,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41003279782186847,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,N_hundreds,BpowD,B^D,-0.05694213932403338,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,N_hundreds,NdivBpowD,N / B^D,-0.2441571616326569,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.24237175467051492,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41050845950433634,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,N_tens,BpowD,B^D,-0.07024117153196223,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,N_tens,NdivBpowD,N / B^D,-0.22370468342187264,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,N_tens,floorNdivBpowD,floor(N / B^D),-0.22229531996789392,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3629719124282166,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,N_ones,BpowD,B^D,-0.10647063031808353,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,N_ones,NdivBpowD,N / B^D,-0.22628302944530126,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,N_ones,floorNdivBpowD,floor(N / B^D),-0.22524333147986395,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.33098954026166044,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,B_tag,BpowD,B^D,-0.12698298116922185,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,B_tag,NdivBpowD,N / B^D,-0.28484574463841994,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,B_tag,floorNdivBpowD,floor(N / B^D),-0.2834541579258303,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.40638117617536784,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,B_tens,BpowD,B^D,-0.2152002205321566,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,B_tens,NdivBpowD,N / B^D,-0.1779367434068609,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,B_tens,floorNdivBpowD,floor(N / B^D),-0.17802139099723488,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,0.007936971202364673,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,B_ones,BpowD,B^D,-0.052619008054476765,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,B_ones,NdivBpowD,N / B^D,-0.14291739423225178,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,B_ones,floorNdivBpowD,floor(N / B^D),-0.1430022345312508,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.1210630803033484,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,D_tag,BpowD,B^D,-0.04360494161486748,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,D_tag,NdivBpowD,N / B^D,-0.15444870329210328,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,D_tag,floorNdivBpowD,floor(N / B^D),-0.15453748095751477,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.1374128572621219,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,D_ones,BpowD,B^D,0.7828092230603758,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,D_ones,NdivBpowD,N / B^D,0.9527832131207592,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,D_ones,floorNdivBpowD,floor(N / B^D),0.9528363833428987,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5613374221923297,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,O[0],BpowD,B^D,0.7730414534164651,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,O[0],NdivBpowD,N / B^D,0.846938286918084,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,O[0],floorNdivBpowD,floor(N / B^D),0.8470860348309877,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.5947916983160871,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,O[1],BpowD,B^D,0.7695455661001664,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,O[1],NdivBpowD,N / B^D,0.8119457175291027,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,O[1],floorNdivBpowD,floor(N / B^D),0.8121441050912702,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,5,4,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8801227507690748,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,N_tag,BpowD,B^D,-0.08783133771992055,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,N_tag,NdivBpowD,N / B^D,-0.30036740319717425,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,N_tag,floorNdivBpowD,floor(N / B^D),-0.29848146384645763,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41003279782186847,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,N_hundreds,BpowD,B^D,-0.04072268480724757,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,N_hundreds,NdivBpowD,N / B^D,-0.18644173729680177,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.18502384285455684,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.32792672925598787,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,N_tens,BpowD,B^D,-0.07608036641445612,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,N_tens,NdivBpowD,N / B^D,-0.2251091841819745,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,N_tens,floorNdivBpowD,floor(N / B^D),-0.22368516813594827,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.36165662403244847,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,N_ones,BpowD,B^D,-0.12620620363760088,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,N_ones,NdivBpowD,N / B^D,-0.2886955363198548,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,N_ones,floorNdivBpowD,floor(N / B^D),-0.2872711875821093,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41307580431587676,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,B_tag,BpowD,B^D,-0.10647063036099032,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,B_tag,NdivBpowD,N / B^D,-0.22628302943023965,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,B_tag,floorNdivBpowD,floor(N / B^D),-0.22524333146522402,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3309895402177281,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,B_tens,BpowD,B^D,-0.2110242625740068,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,B_tens,NdivBpowD,N / B^D,-0.17638480172763393,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,B_tens,floorNdivBpowD,floor(N / B^D),-0.17647015208362418,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,0.02201925774170823,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,B_ones,BpowD,B^D,-0.057475521407440014,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,B_ones,NdivBpowD,N / B^D,-0.14236534116291985,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,B_ones,floorNdivBpowD,floor(N / B^D),-0.14244744727089503,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.11787746777582256,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,D_tag,BpowD,B^D,-0.03746377437440984,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,D_tag,NdivBpowD,N / B^D,-0.14649239271935208,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,D_tag,floorNdivBpowD,floor(N / B^D),-0.14657750699186112,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.124169581034104,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,D_ones,BpowD,B^D,0.7849862271095669,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,D_ones,NdivBpowD,N / B^D,0.9480077227901234,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,D_ones,floorNdivBpowD,floor(N / B^D),0.9480590151385047,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5578207950517075,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,O[0],BpowD,B^D,0.7562966080188132,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,O[0],NdivBpowD,N / B^D,0.8319772551248665,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,O[0],floorNdivBpowD,floor(N / B^D),0.8321448315409151,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.6220722500864986,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,O[1],BpowD,B^D,0.7604450729476504,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,O[1],NdivBpowD,N / B^D,0.7975767084642589,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,O[1],floorNdivBpowD,floor(N / B^D),0.7977904314103063,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,6,5,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8751854125631848,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,N_tag,BpowD,B^D,-0.08783133771992055,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,N_tag,NdivBpowD,N / B^D,-0.30036740319717425,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,N_tag,floorNdivBpowD,floor(N / B^D),-0.29848146384645763,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41003279782186847,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,N_hundreds,BpowD,B^D,-0.04072268480724841,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,N_hundreds,NdivBpowD,N / B^D,-0.18644173729680175,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.18502384285455697,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.32792672925598854,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,N_tens,BpowD,B^D,-0.05389358305533416,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,N_tens,NdivBpowD,N / B^D,-0.1649867498399912,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,N_tens,floorNdivBpowD,floor(N / B^D),-0.16394757939561397,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.2813535804100572,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,N_ones,BpowD,B^D,-0.10426591741456406,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,N_ones,NdivBpowD,N / B^D,-0.22458191912948547,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,N_ones,floorNdivBpowD,floor(N / B^D),-0.2235460627076657,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.34046015592291623,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,B_tag,BpowD,B^D,-0.10824868823233635,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,B_tag,NdivBpowD,N / B^D,-0.22304614818317847,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,B_tag,floorNdivBpowD,floor(N / B^D),-0.2220111946671488,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3296715657549201,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,B_tens,BpowD,B^D,-0.22082997740375426,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,B_tens,NdivBpowD,N / B^D,-0.17029594461810746,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,B_tens,floorNdivBpowD,floor(N / B^D),-0.1703829215356641,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,0.018655407861581687,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,B_ones,BpowD,B^D,-0.055517064684762495,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,B_ones,NdivBpowD,N / B^D,-0.13839694202941258,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,B_ones,floorNdivBpowD,floor(N / B^D),-0.13847690364126727,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.1208660186727378,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,D_tag,BpowD,B^D,-0.04392729831304998,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,D_tag,NdivBpowD,N / B^D,-0.15224986233306614,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,D_tag,floorNdivBpowD,floor(N / B^D),-0.1523404113647598,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.12346524767095639,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,D_ones,BpowD,B^D,0.7653627196925997,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,D_ones,NdivBpowD,N / B^D,0.9481854351958307,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,D_ones,floorNdivBpowD,floor(N / B^D),0.9482400519456753,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5543985829310629,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,O[0],BpowD,B^D,0.7514406604009649,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,O[0],NdivBpowD,N / B^D,0.8218552669000949,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,O[0],floorNdivBpowD,floor(N / B^D),0.8220456960210036,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.6835495745817235,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,O[1],BpowD,B^D,0.7837492350106596,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,O[1],NdivBpowD,N / B^D,0.7909739905003736,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,O[1],floorNdivBpowD,floor(N / B^D),0.7911934073476166,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,7,6,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8803503565364033,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,N_tag,BpowD,B^D,-0.08783133771992055,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,N_tag,NdivBpowD,N / B^D,-0.30036740319717425,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,N_tag,floorNdivBpowD,floor(N / B^D),-0.29848146384645763,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41003279782186847,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,N_hundreds,BpowD,B^D,-0.056942139324032845,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,N_hundreds,NdivBpowD,N / B^D,-0.24415716163265672,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.24237175467051486,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.4105084595043351,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,N_tens,BpowD,B^D,-0.07280962892625768,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,N_tens,NdivBpowD,N / B^D,-0.22549602580563124,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,N_tens,floorNdivBpowD,floor(N / B^D),-0.22407607564038629,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3721847147835538,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,N_ones,BpowD,B^D,-0.10841603936723354,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,N_ones,NdivBpowD,N / B^D,-0.22474497961547746,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,N_ones,floorNdivBpowD,floor(N / B^D),-0.22372627596441524,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.33377529523124155,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,B_tag,BpowD,B^D,-0.10724740815171216,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,B_tag,NdivBpowD,N / B^D,-0.22243323836552298,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,B_tag,floorNdivBpowD,floor(N / B^D),-0.221426302427676,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3242949122873176,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,B_tens,BpowD,B^D,-0.20960483956463388,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,B_tens,NdivBpowD,N / B^D,-0.16931631662117597,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,B_tens,floorNdivBpowD,floor(N / B^D),-0.16941370381730306,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,0.004276078262625371,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,B_ones,BpowD,B^D,-0.05043107954303165,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,B_ones,NdivBpowD,N / B^D,-0.13776728435361582,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,B_ones,floorNdivBpowD,floor(N / B^D),-0.13784843770133684,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.12868508035220871,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,D_tag,BpowD,B^D,-0.04859034107274103,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,D_tag,NdivBpowD,N / B^D,-0.15701508293077557,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,D_tag,floorNdivBpowD,floor(N / B^D),-0.1570902717861678,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.12251421511184826,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,D_ones,BpowD,B^D,0.7436225883180325,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,D_ones,NdivBpowD,N / B^D,0.9508175238836047,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,D_ones,floorNdivBpowD,floor(N / B^D),0.9508595882594323,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5506781469491244,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,O[0],BpowD,B^D,0.7391099130319331,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,O[0],NdivBpowD,N / B^D,0.8066042853706181,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,O[0],floorNdivBpowD,floor(N / B^D),0.8068112509559618,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.7621450720459148,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,O[1],BpowD,B^D,0.772272235151392,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,O[1],NdivBpowD,N / B^D,0.7799338608553272,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,O[1],floorNdivBpowD,floor(N / B^D),0.780170573742842,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,8,7,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8984190750989484,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,N_tag,BpowD,B^D,-0.08783133771992055,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,N_tag,NdivBpowD,N / B^D,-0.30036740319717425,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,N_tag,floorNdivBpowD,floor(N / B^D),-0.29848146384645763,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41003279782186847,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,N_hundreds,BpowD,B^D,-0.056942139324033025,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,N_hundreds,NdivBpowD,N / B^D,-0.2441571616326566,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.242371754670515,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.4105084595043362,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,N_tens,BpowD,B^D,-0.03857462896330044,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,N_tens,NdivBpowD,N / B^D,-0.10312251792490516,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,N_tens,floorNdivBpowD,floor(N / B^D),-0.10248287123532522,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.1934706606345673,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,N_ones,BpowD,B^D,-0.10724740810236684,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,N_ones,NdivBpowD,N / B^D,-0.22243323870230336,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,N_ones,floorNdivBpowD,floor(N / B^D),-0.22142630276328043,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3242949125149349,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,B_tag,BpowD,B^D,-0.09088517907523319,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,B_tag,NdivBpowD,N / B^D,-0.16403358302516993,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,B_tag,floorNdivBpowD,floor(N / B^D),-0.16339568860321457,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.24221841577070444,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,B_tens,BpowD,B^D,-0.21378251089813677,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,B_tens,NdivBpowD,N / B^D,-0.17691457040940306,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,B_tens,floorNdivBpowD,floor(N / B^D),-0.17701500350053417,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,0.0023943479069404193,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,B_ones,BpowD,B^D,-0.049706350150554315,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,B_ones,NdivBpowD,N / B^D,-0.1370508667550765,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,B_ones,floorNdivBpowD,floor(N / B^D),-0.13712440702046624,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.1343758548740333,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,D_tag,BpowD,B^D,-0.03929456461431709,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,D_tag,NdivBpowD,N / B^D,-0.15737821989037895,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,D_tag,floorNdivBpowD,floor(N / B^D),-0.15745300030832743,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.1250795831647136,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,D_ones,BpowD,B^D,0.7083626475197624,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,D_ones,NdivBpowD,N / B^D,0.9480196661466541,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,D_ones,floorNdivBpowD,floor(N / B^D),0.9480614198899747,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.548592004998144,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,O[0],BpowD,B^D,0.7301842923426877,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,O[0],NdivBpowD,N / B^D,0.8004546941784006,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,O[0],floorNdivBpowD,floor(N / B^D),0.8006518145970576,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8833784991060755,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,O[1],BpowD,B^D,0.7610719041334072,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,O[1],NdivBpowD,N / B^D,0.7720127784084655,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,O[1],floorNdivBpowD,floor(N / B^D),0.77224938986617,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,9,8,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.9056116785522411,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,N_tag,BpowD,B^D,-0.08783133771992055,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,N_tag,NdivBpowD,N / B^D,-0.30036740319717425,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,N_tag,floorNdivBpowD,floor(N / B^D),-0.29848146384645763,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.41003279782186847,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,N_hundreds,BpowD,B^D,-0.056942139324033116,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,N_hundreds,NdivBpowD,N / B^D,-0.24415716163265694,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.24237175467051525,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.4105084595043372,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,N_tens,BpowD,B^D,-0.05492221743995,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,N_tens,NdivBpowD,N / B^D,-0.16184045150673612,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,N_tens,floorNdivBpowD,floor(N / B^D),-0.1608306118075543,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.275088992652892,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,N_ones,BpowD,B^D,-0.09305509036546641,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,N_ones,NdivBpowD,N / B^D,-0.16695823350415545,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,N_ones,floorNdivBpowD,floor(N / B^D),-0.16628055379294415,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.25707545222561046,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,B_tag,BpowD,B^D,-0.1240014908606916,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,B_tag,NdivBpowD,N / B^D,-0.28699442600380326,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,B_tag,floorNdivBpowD,floor(N / B^D),-0.2855739188100138,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.4225464196442152,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,B_tens,BpowD,B^D,-0.2153650470094306,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,B_tens,NdivBpowD,N / B^D,-0.1705632939217358,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,B_tens,floorNdivBpowD,floor(N / B^D),-0.1706478294433073,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,0.008748389463681528,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,B_ones,BpowD,B^D,-0.0446289336122699,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,B_ones,NdivBpowD,N / B^D,-0.14514047152287435,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,B_ones,floorNdivBpowD,floor(N / B^D),-0.14521583585006131,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.12630150542762103,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,D_tag,BpowD,B^D,-0.03423139584124106,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,D_tag,NdivBpowD,N / B^D,-0.1527675747679603,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,D_tag,floorNdivBpowD,floor(N / B^D),-0.15284714046297299,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,0.11899717963986774,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,D_ones,BpowD,B^D,0.7605874113730915,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,D_ones,NdivBpowD,N / B^D,0.9431474127553372,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,D_ones,floorNdivBpowD,floor(N / B^D),0.9432069807425535,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5472823318721346,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,O[0],BpowD,B^D,0.7163454714874884,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,O[0],NdivBpowD,N / B^D,0.7902628498747121,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,O[0],floorNdivBpowD,floor(N / B^D),0.7904722107578319,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.9237927322699667,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,O[1],BpowD,B^D,0.7487355143818746,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,O[1],NdivBpowD,N / B^D,0.756529776388979,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,O[1],floorNdivBpowD,floor(N / B^D),0.7567745323628527,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,10,9,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.9310530671532561,4646,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,N_tag,BpowD,B^D,-0.13046239733120935,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,N_tag,NdivBpowD,N / B^D,-0.29309006550487654,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,N_tag,floorNdivBpowD,floor(N / B^D),-0.29152325156489406,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6378409576863857,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,N_hundreds,BpowD,B^D,-0.06462904627120829,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,N_hundreds,NdivBpowD,N / B^D,-0.22603994408483957,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.22457397758663838,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6344614961208352,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,N_tens,BpowD,B^D,-0.13387264309533178,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,N_tens,NdivBpowD,N / B^D,-0.29471254870689295,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,N_tens,floorNdivBpowD,floor(N / B^D),-0.29315433388817147,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.641606096099741,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,N_ones,BpowD,B^D,-0.1342768255426568,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,N_ones,NdivBpowD,N / B^D,-0.295207471155284,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,N_ones,floorNdivBpowD,floor(N / B^D),-0.29364406458410136,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6425994610582944,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,B_tag,BpowD,B^D,-0.13046239733120935,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,B_tag,NdivBpowD,N / B^D,-0.29309006550487654,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,B_tag,floorNdivBpowD,floor(N / B^D),-0.29152325156489406,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6378409576863857,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,B_tens,BpowD,B^D,-0.10468360173390981,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,B_tens,NdivBpowD,N / B^D,-0.2929541801064888,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,B_tens,floorNdivBpowD,floor(N / B^D),-0.29137906568340044,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5590382771979419,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,B_ones,BpowD,B^D,-0.11159979762577352,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,B_ones,NdivBpowD,N / B^D,-0.29566791909880197,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,B_ones,floorNdivBpowD,floor(N / B^D),-0.29409570543681085,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5578091580300037,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,D_tag,BpowD,B^D,-0.13046239733120935,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,D_tag,NdivBpowD,N / B^D,-0.29309006550487654,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,D_tag,floorNdivBpowD,floor(N / B^D),-0.29152325156489406,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6378409576863857,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,D_ones,BpowD,B^D,0.33860478890808576,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,D_ones,NdivBpowD,N / B^D,0.34946718871799015,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,D_ones,floorNdivBpowD,floor(N / B^D),0.35142903324028374,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.2617356048919747,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,O[0],BpowD,B^D,-0.13046239733120935,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,O[0],NdivBpowD,N / B^D,-0.29309006550487654,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,O[0],floorNdivBpowD,floor(N / B^D),-0.29152325156489406,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6378409576863857,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,O[1],BpowD,B^D,-0.09706177321964163,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,O[1],NdivBpowD,N / B^D,-0.22379858392279733,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,O[1],floorNdivBpowD,floor(N / B^D),-0.2222373707876019,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,0,input,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.1800611965182501,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,N_tag,BpowD,B^D,-0.13046239733120935,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,N_tag,NdivBpowD,N / B^D,-0.29309006550487654,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,N_tag,floorNdivBpowD,floor(N / B^D),-0.29152325156489406,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6378409576863857,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,N_hundreds,BpowD,B^D,-0.06462904627120883,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,N_hundreds,NdivBpowD,N / B^D,-0.22603994408484018,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.22457397758663872,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6344614961208344,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,N_tens,BpowD,B^D,-0.08102863969539656,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,N_tens,NdivBpowD,N / B^D,-0.20461403900350345,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,N_tens,floorNdivBpowD,floor(N / B^D),-0.20349109360911397,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5434345914206671,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,N_ones,BpowD,B^D,-0.07712087052986645,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,N_ones,NdivBpowD,N / B^D,-0.1502537137536229,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,N_ones,floorNdivBpowD,floor(N / B^D),-0.14974366517400317,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.36591668278163014,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,B_tag,BpowD,B^D,-0.1344232148530265,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,B_tag,NdivBpowD,N / B^D,-0.2709339601226896,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,B_tag,floorNdivBpowD,floor(N / B^D),-0.26977499462034993,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6110432337018659,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,B_tens,BpowD,B^D,-0.0261258576003361,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,B_tens,NdivBpowD,N / B^D,-0.15798653976655724,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,B_tens,floorNdivBpowD,floor(N / B^D),-0.1581548151061194,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.09184427375627116,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,B_ones,BpowD,B^D,-0.05423695074799646,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,B_ones,NdivBpowD,N / B^D,-0.16966173977410662,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,B_ones,floorNdivBpowD,floor(N / B^D),-0.16984435310128645,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.036297009510508495,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,D_tag,BpowD,B^D,-0.09116068634858192,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,D_tag,NdivBpowD,N / B^D,-0.1750005612352942,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,D_tag,floorNdivBpowD,floor(N / B^D),-0.17515322086039303,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.11018856544508848,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,D_ones,BpowD,B^D,0.9995441928277708,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,D_ones,NdivBpowD,N / B^D,0.9589809715920155,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,D_ones,floorNdivBpowD,floor(N / B^D),0.959030374392216,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5715671649896955,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,O[0],BpowD,B^D,0.7133054798761977,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,O[0],NdivBpowD,N / B^D,0.8631909988036863,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,O[0],floorNdivBpowD,floor(N / B^D),0.8633059923854576,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.48335535815885533,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,O[1],BpowD,B^D,0.6236361515313196,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,O[1],NdivBpowD,N / B^D,0.7823381446376368,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,O[1],floorNdivBpowD,floor(N / B^D),0.782493190038197,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,1,0,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8670841375146641,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,N_tag,BpowD,B^D,-0.13046239733120935,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,N_tag,NdivBpowD,N / B^D,-0.29309006550487654,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,N_tag,floorNdivBpowD,floor(N / B^D),-0.29152325156489406,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6378409576863857,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,N_hundreds,BpowD,B^D,-0.06462904627120847,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,N_hundreds,NdivBpowD,N / B^D,-0.22603994408483982,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.2245739775866385,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6344614961208347,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,N_tens,BpowD,B^D,-0.08102863967996594,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,N_tens,NdivBpowD,N / B^D,-0.20461403904039663,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,N_tens,floorNdivBpowD,floor(N / B^D),-0.2034910936455713,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5434345918386911,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,N_ones,BpowD,B^D,-0.07712070116940697,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,N_ones,NdivBpowD,N / B^D,-0.150253774829504,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,N_ones,floorNdivBpowD,floor(N / B^D),-0.14974372639567018,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.36591678351753565,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,B_tag,BpowD,B^D,-0.1344232181681559,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,B_tag,NdivBpowD,N / B^D,-0.27093393211924843,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,B_tag,floorNdivBpowD,floor(N / B^D),-0.26977496664018785,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.611043252007839,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,B_tens,BpowD,B^D,-0.025589848486308762,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,B_tens,NdivBpowD,N / B^D,-0.1624133816387244,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,B_tens,floorNdivBpowD,floor(N / B^D),-0.16257526777843326,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.07142087099021732,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,B_ones,BpowD,B^D,-0.08115220283397853,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,B_ones,NdivBpowD,N / B^D,-0.18103477399938933,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,B_ones,floorNdivBpowD,floor(N / B^D),-0.18116892085633424,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.0537630752411475,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,D_tag,BpowD,B^D,-0.06245166127222146,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,D_tag,NdivBpowD,N / B^D,-0.16638265494107046,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,D_tag,floorNdivBpowD,floor(N / B^D),-0.16653659375712518,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.06853271329971626,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,D_ones,BpowD,B^D,0.9958413411731927,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,D_ones,NdivBpowD,N / B^D,0.7852263017470413,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,D_ones,floorNdivBpowD,floor(N / B^D),0.785456898370803,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5510027212239093,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,O[0],BpowD,B^D,0.9342530639104423,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,O[0],NdivBpowD,N / B^D,0.928011096508853,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,O[0],floorNdivBpowD,floor(N / B^D),0.9280661507478376,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.5162790027993959,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,O[1],BpowD,B^D,0.9027063868903065,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,O[1],NdivBpowD,N / B^D,0.916488659330026,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,O[1],floorNdivBpowD,floor(N / B^D),0.9165686301751517,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,2,1,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.88667681585212,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,N_tag,BpowD,B^D,-0.13046239733120935,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,N_tag,NdivBpowD,N / B^D,-0.29309006550487654,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,N_tag,floorNdivBpowD,floor(N / B^D),-0.29152325156489406,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6378409576863857,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,N_hundreds,BpowD,B^D,-0.06462904627120855,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,N_hundreds,NdivBpowD,N / B^D,-0.22603994408484002,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.22457397758663858,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6344614961208345,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,N_tens,BpowD,B^D,-0.10548831676121342,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,N_tens,NdivBpowD,N / B^D,-0.2644129050968969,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,N_tens,floorNdivBpowD,floor(N / B^D),-0.2629532429423684,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6739527893299913,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,N_ones,BpowD,B^D,-0.08450352970941295,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,N_ones,NdivBpowD,N / B^D,-0.14799971050018632,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,N_ones,floorNdivBpowD,floor(N / B^D),-0.14750908635545495,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3427298406176611,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,B_tag,BpowD,B^D,-0.05125388999923035,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,B_tag,NdivBpowD,N / B^D,-0.08725316461563634,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,B_tag,floorNdivBpowD,floor(N / B^D),-0.08707290827878196,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.2285895418257001,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,B_tens,BpowD,B^D,-0.023515114443757867,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,B_tens,NdivBpowD,N / B^D,-0.16450951873269845,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,B_tens,floorNdivBpowD,floor(N / B^D),-0.16466575090740218,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.07217507723895467,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,B_ones,BpowD,B^D,-0.07400090456014663,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,B_ones,NdivBpowD,N / B^D,-0.17059538190261567,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,B_ones,floorNdivBpowD,floor(N / B^D),-0.17075364231821272,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.028307299552805754,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,D_tag,BpowD,B^D,-0.054833982310883524,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,D_tag,NdivBpowD,N / B^D,-0.16942600251517964,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,D_tag,floorNdivBpowD,floor(N / B^D),-0.16957280051506304,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.05825640349597836,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,D_ones,BpowD,B^D,0.9889720699596063,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,D_ones,NdivBpowD,N / B^D,0.957090202308672,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,D_ones,floorNdivBpowD,floor(N / B^D),0.957133226525133,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5650401669859122,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,O[0],BpowD,B^D,0.8752951512335543,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,O[0],NdivBpowD,N / B^D,0.9160103904038378,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,O[0],floorNdivBpowD,floor(N / B^D),0.9160732234680292,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.5317352950301678,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,O[1],BpowD,B^D,0.8910027784733883,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,O[1],NdivBpowD,N / B^D,0.8911943910477345,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,O[1],floorNdivBpowD,floor(N / B^D),0.8912956014617126,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,3,2,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8883509336278225,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,N_tag,BpowD,B^D,-0.13046239733120935,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,N_tag,NdivBpowD,N / B^D,-0.29309006550487654,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,N_tag,floorNdivBpowD,floor(N / B^D),-0.29152325156489406,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6378409576863857,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,N_hundreds,BpowD,B^D,-0.0646290462712082,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,N_hundreds,NdivBpowD,N / B^D,-0.22603994408483943,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.22457397758663813,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.634461496120835,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,N_tens,BpowD,B^D,-0.08251257984724085,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,N_tens,NdivBpowD,N / B^D,-0.21053771950835065,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,N_tens,floorNdivBpowD,floor(N / B^D),-0.2093779689425343,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5540509078151461,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,N_ones,BpowD,B^D,-0.05422663780867994,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,N_ones,NdivBpowD,N / B^D,-0.0970800102077423,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,N_ones,floorNdivBpowD,floor(N / B^D),-0.09686869548116435,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.24689618742551872,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,B_tag,BpowD,B^D,-0.10117357860552816,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,B_tag,NdivBpowD,N / B^D,-0.21018738646551224,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,B_tag,floorNdivBpowD,floor(N / B^D),-0.2093387887943988,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.49690295260466044,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,B_tens,BpowD,B^D,-0.025835911040710768,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,B_tens,NdivBpowD,N / B^D,-0.16775767074575704,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,B_tens,floorNdivBpowD,floor(N / B^D),-0.167920657193359,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.0701019360245306,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,B_ones,BpowD,B^D,-0.057743525742888525,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,B_ones,NdivBpowD,N / B^D,-0.1684321627909709,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,B_ones,floorNdivBpowD,floor(N / B^D),-0.16859523010704408,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.04437539788506202,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,D_tag,BpowD,B^D,-0.06338574191020041,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,D_tag,NdivBpowD,N / B^D,-0.17564363054054705,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,D_tag,floorNdivBpowD,floor(N / B^D),-0.17579335504838306,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.0677772540801945,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,D_ones,BpowD,B^D,0.9788686300223617,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,D_ones,NdivBpowD,N / B^D,0.9526732376516709,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,D_ones,floorNdivBpowD,floor(N / B^D),0.9527223619918912,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.574831646443284,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,O[0],BpowD,B^D,0.8437966342514918,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,O[0],NdivBpowD,N / B^D,0.9082844056063146,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,O[0],floorNdivBpowD,floor(N / B^D),0.9083494214201933,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.5503875378318145,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,O[1],BpowD,B^D,0.8849337093705113,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,O[1],NdivBpowD,N / B^D,0.8650705867937847,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,O[1],floorNdivBpowD,floor(N / B^D),0.8651873556997172,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,4,3,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8866649476765709,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,N_tag,BpowD,B^D,-0.13046239733120935,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,N_tag,NdivBpowD,N / B^D,-0.29309006550487654,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,N_tag,floorNdivBpowD,floor(N / B^D),-0.29152325156489406,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6378409576863857,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,N_hundreds,BpowD,B^D,-0.06462904627120825,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,N_hundreds,NdivBpowD,N / B^D,-0.22603994408483988,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.2245739775866385,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6344614961208346,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,N_tens,BpowD,B^D,-0.08102863967986736,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,N_tens,NdivBpowD,N / B^D,-0.2046140390405808,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,N_tens,floorNdivBpowD,floor(N / B^D),-0.20349109364575538,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5434345918386322,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,N_ones,BpowD,B^D,-0.13554027250952827,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,N_ones,NdivBpowD,N / B^D,-0.27990456225380617,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,N_ones,floorNdivBpowD,floor(N / B^D),-0.27873399523577796,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6243051359305067,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,B_tag,BpowD,B^D,-0.1344232185167741,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,B_tag,NdivBpowD,N / B^D,-0.2709339326172936,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,B_tag,floorNdivBpowD,floor(N / B^D),-0.2697749671374724,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6110432517746497,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,B_tens,BpowD,B^D,-0.029623919335181114,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,B_tens,NdivBpowD,N / B^D,-0.17446016134303544,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,B_tens,floorNdivBpowD,floor(N / B^D),-0.17462472757909206,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.0750082001791248,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,B_ones,BpowD,B^D,-0.05541301996578733,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,B_ones,NdivBpowD,N / B^D,-0.17436856559731523,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,B_ones,floorNdivBpowD,floor(N / B^D),-0.1745271952421532,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.045577712426353445,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,D_tag,BpowD,B^D,-0.06276232965511903,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,D_tag,NdivBpowD,N / B^D,-0.16517460197079833,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,D_tag,floorNdivBpowD,floor(N / B^D),-0.16533260459706484,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.05588491796728969,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,D_ones,BpowD,B^D,0.9734338745026998,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,D_ones,NdivBpowD,N / B^D,0.9512043680162339,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,D_ones,floorNdivBpowD,floor(N / B^D),0.9512560402670001,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5664703033179479,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,O[0],BpowD,B^D,0.8278063034187708,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,O[0],NdivBpowD,N / B^D,0.9013400167143057,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,O[0],floorNdivBpowD,floor(N / B^D),0.9014289872614091,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.5777726877186836,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,O[1],BpowD,B^D,0.882257279844129,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,O[1],NdivBpowD,N / B^D,0.8455095972154462,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,O[1],floorNdivBpowD,floor(N / B^D),0.8456668617499583,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,5,4,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8869901981134655,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,N_tag,BpowD,B^D,-0.13046239733120935,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,N_tag,NdivBpowD,N / B^D,-0.29309006550487654,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,N_tag,floorNdivBpowD,floor(N / B^D),-0.29152325156489406,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6378409576863857,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,N_hundreds,BpowD,B^D,-0.06462904627120829,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,N_hundreds,NdivBpowD,N / B^D,-0.2260399440848399,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.2245739775866383,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6344614961208345,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,N_tens,BpowD,B^D,-0.10548831676124096,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,N_tens,NdivBpowD,N / B^D,-0.264412905096845,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,N_tens,floorNdivBpowD,floor(N / B^D),-0.26295324294231615,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6739527893298802,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,N_ones,BpowD,B^D,-0.11037034085277075,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,N_ones,NdivBpowD,N / B^D,-0.21100032072958733,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,N_ones,floorNdivBpowD,floor(N / B^D),-0.21017990448778714,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.48005708233089617,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,B_tag,BpowD,B^D,-0.07642382162761288,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,B_tag,NdivBpowD,N / B^D,-0.15615740616658674,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,B_tag,floorNdivBpowD,floor(N / B^D),-0.15562699905340707,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.37283759544296735,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,B_tens,BpowD,B^D,-0.03038561059124334,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,B_tens,NdivBpowD,N / B^D,-0.1736173919802845,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,B_tens,floorNdivBpowD,floor(N / B^D),-0.17377441023422366,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.07902321900570249,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,B_ones,BpowD,B^D,-0.05316462757461049,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,B_ones,NdivBpowD,N / B^D,-0.17752085026576178,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,B_ones,floorNdivBpowD,floor(N / B^D),-0.17768825882263634,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.03642881909981246,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,D_tag,BpowD,B^D,-0.060646731009605846,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,D_tag,NdivBpowD,N / B^D,-0.16837388004625842,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,D_tag,floorNdivBpowD,floor(N / B^D),-0.16852800646474475,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.05685777068673108,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,D_ones,BpowD,B^D,0.9688715363817,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,D_ones,NdivBpowD,N / B^D,0.9440021194896591,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,D_ones,floorNdivBpowD,floor(N / B^D),0.9440489996154653,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5622786818289198,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,O[0],BpowD,B^D,0.8244710280557204,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,O[0],NdivBpowD,N / B^D,0.8947779306583132,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,O[0],floorNdivBpowD,floor(N / B^D),0.8948599424538711,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.6184247070351417,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,O[1],BpowD,B^D,0.8693969955562452,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,O[1],NdivBpowD,N / B^D,0.8285418728112068,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,O[1],floorNdivBpowD,floor(N / B^D),0.828695990523701,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,6,5,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8854016741925411,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,N_tag,BpowD,B^D,-0.13046239733120935,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,N_tag,NdivBpowD,N / B^D,-0.29309006550487654,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,N_tag,floorNdivBpowD,floor(N / B^D),-0.29152325156489406,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6378409576863857,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,N_hundreds,BpowD,B^D,-0.06462904627120833,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,N_hundreds,NdivBpowD,N / B^D,-0.2260399440848399,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.22457397758663836,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6344614961208352,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,N_tens,BpowD,B^D,-0.1054883167610976,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,N_tens,NdivBpowD,N / B^D,-0.26441290509684073,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,N_tens,floorNdivBpowD,floor(N / B^D),-0.2629532429423114,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6739527893303027,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,N_ones,BpowD,B^D,-0.07712070116895324,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,N_ones,NdivBpowD,N / B^D,-0.15025377482004001,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,N_ones,floorNdivBpowD,floor(N / B^D),-0.14974372638620417,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3659167835252054,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,B_tag,BpowD,B^D,-0.1251846961513289,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,B_tag,NdivBpowD,N / B^D,-0.2723317809805158,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,B_tag,floorNdivBpowD,floor(N / B^D),-0.2711728480630985,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6291854332273416,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,B_tens,BpowD,B^D,-0.029253572880568533,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,B_tens,NdivBpowD,N / B^D,-0.16064413913483172,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,B_tens,floorNdivBpowD,floor(N / B^D),-0.16079194779983091,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.08108624069453092,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,B_ones,BpowD,B^D,-0.05711248982381183,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,B_ones,NdivBpowD,N / B^D,-0.18862704687038856,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,B_ones,floorNdivBpowD,floor(N / B^D),-0.18879807394558323,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.044503629757391396,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,D_tag,BpowD,B^D,-0.059544280913298,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,D_tag,NdivBpowD,N / B^D,-0.16584356157187555,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,D_tag,floorNdivBpowD,floor(N / B^D),-0.16598630513025653,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.05428178447538725,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,D_ones,BpowD,B^D,0.9690783449042716,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,D_ones,NdivBpowD,N / B^D,0.9539019346520139,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,D_ones,floorNdivBpowD,floor(N / B^D),0.9539372187440435,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5590093389073651,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,O[0],BpowD,B^D,0.8139233208190279,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,O[0],NdivBpowD,N / B^D,0.8734787191216871,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,O[0],floorNdivBpowD,floor(N / B^D),0.8735633411912603,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.6944759661480606,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,O[1],BpowD,B^D,0.8602255153439755,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,O[1],NdivBpowD,N / B^D,0.8090525961025451,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,O[1],floorNdivBpowD,floor(N / B^D),0.8092408373611193,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,7,6,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.8947051683095715,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,N_tag,BpowD,B^D,-0.13046239733120935,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,N_tag,NdivBpowD,N / B^D,-0.29309006550487654,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,N_tag,floorNdivBpowD,floor(N / B^D),-0.29152325156489406,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6378409576863857,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,N_hundreds,BpowD,B^D,-0.06462904627120833,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,N_hundreds,NdivBpowD,N / B^D,-0.22603994408484002,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.2245739775866386,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6344614961208347,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,N_tens,BpowD,B^D,-0.08102863967993876,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,N_tens,NdivBpowD,N / B^D,-0.20461403904053407,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,N_tens,floorNdivBpowD,floor(N / B^D),-0.20349109364570853,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.543434591838633,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,N_ones,BpowD,B^D,-0.13554027250889855,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,N_ones,NdivBpowD,N / B^D,-0.27990456225879223,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,N_ones,floorNdivBpowD,floor(N / B^D),-0.27873399524076603,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6243051359209633,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,B_tag,BpowD,B^D,-0.07827951524197307,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,B_tag,NdivBpowD,N / B^D,-0.1570136218567701,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,B_tag,floorNdivBpowD,floor(N / B^D),-0.15646375789290362,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.37788235648621354,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,B_tens,BpowD,B^D,-0.030467422125957856,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,B_tens,NdivBpowD,N / B^D,-0.16212341585482742,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,B_tens,floorNdivBpowD,floor(N / B^D),-0.16226951633016745,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.08310593506328381,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,B_ones,BpowD,B^D,-0.05916282328334303,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,B_ones,NdivBpowD,N / B^D,-0.17764617434100644,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,B_ones,floorNdivBpowD,floor(N / B^D),-0.17782025341682836,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.053186490540965844,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,D_tag,BpowD,B^D,-0.062369965846480205,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,D_tag,NdivBpowD,N / B^D,-0.1772909280622926,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,D_tag,floorNdivBpowD,floor(N / B^D),-0.17744831083910867,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.06345257747129747,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,D_ones,BpowD,B^D,0.9630828076100066,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,D_ones,NdivBpowD,N / B^D,0.9512769715435615,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,D_ones,floorNdivBpowD,floor(N / B^D),0.9513282121975772,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5493426685711155,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,O[0],BpowD,B^D,0.8079345994633558,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,O[0],NdivBpowD,N / B^D,0.8540272760494968,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,O[0],floorNdivBpowD,floor(N / B^D),0.8541395549803632,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.7546070099112413,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,O[1],BpowD,B^D,0.8500298540731327,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,O[1],NdivBpowD,N / B^D,0.7917866026549965,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,O[1],floorNdivBpowD,floor(N / B^D),0.7919938510656235,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,8,7,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.9086299985007746,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,N_tag,BpowD,B^D,-0.13046239733120935,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,N_tag,NdivBpowD,N / B^D,-0.29309006550487654,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,N_tag,floorNdivBpowD,floor(N / B^D),-0.29152325156489406,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6378409576863857,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,N_hundreds,BpowD,B^D,-0.039884269922321566,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,N_hundreds,NdivBpowD,N / B^D,-0.16652579612150517,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.16539561240475936,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.5021076354030707,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,N_tens,BpowD,B^D,-0.1054883167612144,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,N_tens,NdivBpowD,N / B^D,-0.26441290509687576,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,N_tens,floorNdivBpowD,floor(N / B^D),-0.2629532429423476,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6739527893299684,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,N_ones,BpowD,B^D,-0.07827951524261789,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,N_ones,NdivBpowD,N / B^D,-0.15701362185572715,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,N_ones,floorNdivBpowD,floor(N / B^D),-0.15646375789186653,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3778823564774035,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,B_tag,BpowD,B^D,-0.10117357860247696,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,B_tag,NdivBpowD,N / B^D,-0.21018738647072413,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,B_tag,floorNdivBpowD,floor(N / B^D),-0.20933878879959647,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.49690295257885725,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,B_tens,BpowD,B^D,-0.030986010189716785,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,B_tens,NdivBpowD,N / B^D,-0.16080314672384147,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,B_tens,floorNdivBpowD,floor(N / B^D),-0.16095219050900994,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.08192713989005096,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,B_ones,BpowD,B^D,-0.061068775335036164,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,B_ones,NdivBpowD,N / B^D,-0.17822461763099123,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,B_ones,floorNdivBpowD,floor(N / B^D),-0.17838984086488213,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.04751987012854053,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,D_tag,BpowD,B^D,-0.06349170885315054,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,D_tag,NdivBpowD,N / B^D,-0.17300421735016397,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,D_tag,floorNdivBpowD,floor(N / B^D),-0.17315032861132768,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.05968074878029306,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,D_ones,BpowD,B^D,0.9552928442283216,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,D_ones,NdivBpowD,N / B^D,0.943116217625622,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,D_ones,floorNdivBpowD,floor(N / B^D),0.943174656400287,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5505933434925914,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,O[0],BpowD,B^D,0.7960592961326641,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,O[0],NdivBpowD,N / B^D,0.8332350072551954,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,O[0],floorNdivBpowD,floor(N / B^D),0.833366647783334,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.884466904479021,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,O[1],BpowD,B^D,0.8391818719146344,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,O[1],NdivBpowD,N / B^D,0.7638551449778783,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,O[1],floorNdivBpowD,floor(N / B^D),0.7640700935354453,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,9,8,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.9209728942021052,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,N_tag,BpowD,B^D,-0.13046239733120935,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,N_tag,NdivBpowD,N / B^D,-0.29309006550487654,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,N_tag,floorNdivBpowD,floor(N / B^D),-0.29152325156489406,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,N_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6378409576863857,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,N_hundreds,BpowD,B^D,-0.06462904627120962,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,N_hundreds,NdivBpowD,N / B^D,-0.22603994408483863,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,N_hundreds,floorNdivBpowD,floor(N / B^D),-0.2245739775866383,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,N_hundreds,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.6344614961208318,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,N_tens,BpowD,B^D,-0.08206453049661792,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,N_tens,NdivBpowD,N / B^D,-0.20401158212605633,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,N_tens,floorNdivBpowD,floor(N / B^D),-0.20285694064987164,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,N_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.541438804632882,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,N_ones,BpowD,B^D,-0.07712070116661388,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,N_ones,NdivBpowD,N / B^D,-0.15025377481352806,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,N_ones,floorNdivBpowD,floor(N / B^D),-0.14974372637970998,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,N_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.3659167835275531,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,B_tag,BpowD,B^D,-0.06160946635284481,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,B_tag,NdivBpowD,N / B^D,-0.09482594588346464,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,B_tag,floorNdivBpowD,floor(N / B^D),-0.09463405544602463,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,B_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.22370924450637145,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,B_tens,BpowD,B^D,-0.029183699059058998,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,B_tens,NdivBpowD,N / B^D,-0.1673128206080227,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,B_tens,floorNdivBpowD,floor(N / B^D),-0.16746453761527547,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,B_tens,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.0842578421323577,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,B_ones,BpowD,B^D,-0.06291823423648032,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,B_ones,NdivBpowD,N / B^D,-0.17756655805296143,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,B_ones,floorNdivBpowD,floor(N / B^D),-0.17773002109956768,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,B_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.050822416988606324,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,D_tag,BpowD,B^D,-0.057726169560881634,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,D_tag,NdivBpowD,N / B^D,-0.15995537134674276,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,D_tag,floorNdivBpowD,floor(N / B^D),-0.16010636072728784,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,D_tag,floorNdivBpowD_modB,floor(N / B^D) mod B,-0.060388903926957435,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,D_ones,BpowD,B^D,0.9565781807487808,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,D_ones,NdivBpowD,N / B^D,0.9298545794850617,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,D_ones,floorNdivBpowD,floor(N / B^D),0.9299279761355456,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,D_ones,floorNdivBpowD_modB,floor(N / B^D) mod B,0.5541025590459998,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,O[0],BpowD,B^D,0.7966945495612305,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,O[0],NdivBpowD,N / B^D,0.8170477844526347,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,O[0],floorNdivBpowD,floor(N / B^D),0.8172039621344481,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,O[0],floorNdivBpowD_modB,floor(N / B^D) mod B,0.9274265742411785,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,O[1],BpowD,B^D,0.8369075552235159,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,O[1],NdivBpowD,N / B^D,0.748890782500544,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,O[1],floorNdivBpowD,floor(N / B^D),0.7491095794761995,3677,5
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,10,9,O[1],floorNdivBpowD_modB,floor(N / B^D) mod B,0.9426319671485265,3677,5

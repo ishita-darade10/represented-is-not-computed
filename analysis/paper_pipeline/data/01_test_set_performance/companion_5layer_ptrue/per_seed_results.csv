@@ -1,0 +1,2 @@
+checkpoint,seed,num_layers,split_mode,train_all_permutations,selection,n_test_examples,exact_answer_correct,o0_correct,o1_correct,exact_answer_accuracy,o0_token_accuracy,o1_token_accuracy
+checkpoints/model_t_l5_mby_NB_intersection_pTrue_s1337_best.pt,1337,5,by_NB_intersection,True,best,1857,1855,1856,1855,0.9989229940764675,0.9994614970382337,0.9989229940764675

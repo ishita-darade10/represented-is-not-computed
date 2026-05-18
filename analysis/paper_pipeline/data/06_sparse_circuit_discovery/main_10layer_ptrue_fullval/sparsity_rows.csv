@@ -1,0 +1,4 @@
+checkpoint,seed,candidate_relations,retained_relations,retained_relation_fraction,candidate_layer_edges,retained_layer_edges,retained_layer_edge_fraction
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,79,22,0.27848101265822783,500,106,0.212
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,84,24,0.2857142857142857,483,97,0.20082815734989648
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,84,24,0.2857142857142857,529,103,0.1947069943289225

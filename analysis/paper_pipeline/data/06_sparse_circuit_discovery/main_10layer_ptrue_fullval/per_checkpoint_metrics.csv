@@ -1,0 +1,10 @@
+checkpoint,seed,variant,n_examples,exact_answer_accuracy,o0_token_accuracy,o1_token_accuracy,max_forbidden_attn_weight
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,discover_clean_validation,1831,0.9874385581649372,0.9929000546149646,0.9901693063899508,0.0
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,eval_clean_test,2017,0.9950421417947447,0.9995042141794744,0.9950421417947447,0.0
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,eval_kept_only_test,2017,0.9082796232027764,0.9524045612295489,0.9350520575111552,0.0
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,discover_clean_validation,2482,0.9943593875906527,0.9991941982272361,0.9943593875906527,0.0
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,eval_clean_test,2164,1.0,1.0,1.0,0.0
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,eval_kept_only_test,2164,0.9168207024029574,0.9926062846580407,0.9186691312384473,0.0
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,discover_clean_validation,1820,0.9983516483516484,0.9989010989010989,0.9989010989010989,0.0
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,eval_clean_test,1857,1.0,1.0,1.0,0.0
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,eval_kept_only_test,1857,0.9768443726440496,0.9983844911147012,0.9773828756058158,0.0

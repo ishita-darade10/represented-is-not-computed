@@ -1,0 +1,4 @@
+checkpoint,seed,num_layers,split_mode,train_all_permutations,selection,n_test_examples,exact_answer_correct,o0_correct,o1_correct,exact_answer_accuracy,o0_token_accuracy,o1_token_accuracy
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,by_NB_intersection,True,best,2017,2007,2016,2007,0.9950421417947447,0.9995042141794744,0.9950421417947447
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,by_NB_intersection,True,best,2164,2164,2164,2164,1.0,1.0,1.0
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,by_NB_intersection,True,best,1857,1857,1857,1857,1.0,1.0,1.0

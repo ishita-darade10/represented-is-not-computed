@@ -1,0 +1,5 @@
+checkpoint,seed,num_layers,condition,pair_count,source_exact_rate,donor_exact_rate,source_o0_rate,source_o1_rate,donor_o0_rate,donor_o1_rate,elapsed_seconds,pairs_per_second
+checkpoints/model_t_l5_mby_NB_intersection_pTrue_s1337_best.pt,1337,5,clean,1550,1.0,0.0,1.0,1.0,0.7135483870967742,0.03096774193548387,3.4402779170013673,450.54499589702306
+checkpoints/model_t_l5_mby_NB_intersection_pTrue_s1337_best.pt,1337,5,vary_N,1550,1.0,0.0,1.0,1.0,0.7135483870967742,0.03096774193548387,4.390743374999147,353.0153934355822
+checkpoints/model_t_l5_mby_NB_intersection_pTrue_s1337_best.pt,1337,5,vary_B,1550,1.0,0.0,1.0,1.0,0.6567741935483871,0.03225806451612903,4.41466920899984,351.10218379219367
+checkpoints/model_t_l5_mby_NB_intersection_pTrue_s1337_best.pt,1337,5,vary_D,1550,0.0,0.9987096774193548,0.6335483870967742,0.041935483870967745,1.0,0.9987096774193548,4.458241832999192,347.6706868001525

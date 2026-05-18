@@ -1,0 +1,9 @@
+[
+  "epoch",
+  "train_loss",
+  "train_digit",
+  "train_exact",
+  "val_loss",
+  "val_digit",
+  "val_exact"
+]

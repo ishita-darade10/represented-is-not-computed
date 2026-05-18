@@ -1,0 +1,148 @@
+# Scratch Ledger
+
+This file preserves useful exploratory checks and discarded branches that informed the final analysis but are **not** part of the canonical paper-facing pipeline.
+
+- `Methods.md` records the final protocols used in the paper.
+- `RESULTS.md` records the final reported findings and numbers.
+- `Scratch.md` records informative side experiments, development observations, and choices that should remain visible without being mistaken for final evidence.
+
+Unless stated otherwise, the experiments below were exploratory, often on an earlier single checkpoint or an earlier analysis framing, and were superseded by the cleaner multi-seed analyses in the final pipeline. They are preserved because they helped shape the final questions, not because they should be cited as additional paper results.
+
+## Earlier route-localization work pointed away from a single serial handoff
+
+Before the final paper pipeline was rebuilt around checkpoint-specific splits and the `D_ones` notation, we used the legacy name `pre_O` for the stream immediately before the output prompt token. Several early route tests already suggested that this stream was important but not sufficient:
+
+- removing the full `pre_O -> output` route reduced exact accuracy from `100%` to `35.8%`
+- keeping only `pre_O` among input-side sources gave a similar `35.0%` exact accuracy
+- blocking direct number-digit routes was also damaging, with the strongest `N`-digit route-window ablation reducing exact accuracy to `24.8%`
+- blocking tag-token inputs into `pre_O` at layer 0 reduced exact accuracy to `31.8%`, suggesting that the early `D`-adjacent state behaved partly as a routing/control state rather than as an isolated symbolic calculator
+
+Why this mattered:
+
+- These checks made a purely serial story less plausible before the final circuit search existed.
+- They suggested the eventual paper should ask not only **what is represented** in the `D`-adjacent stream, but also **which other routes remain necessary** for behavior.
+- The final sparse-circuit analysis is the cleaner version of that idea, because it is multi-seed, checkpoint-aware, and reports one stable sufficient circuit family rather than a collection of one-off ablations.
+
+## Earlier probe trajectories foreshadowed the final dissociation
+
+Single-checkpoint exploratory probes already showed a suggestive separation:
+
+| Quantity | Strongest legacy `pre_O` locus | Strongest output-stream locus |
+| --- | ---: | ---: |
+| `B^D` | layer 2, `R² = 0.939` | layer 3, `R² = 0.669` |
+| `floor(N / B^D)` | layer 7, `R² = 0.925` | layer 2, `R² = 0.818` |
+| final digit | layer 6, `R² = 0.226` | layer 9, `R² = 0.849` |
+
+Why this mattered:
+
+- This was the first clear hint that quotient-like quantities could be easy to decode from the `D`-adjacent stream while the answer itself consolidated later on the output side.
+- The final paper does not rely on these single-checkpoint values; the three-seed linear-probing analysis replaces them with the final reported result.
+
+## Output-side exploratory tests supported late integration
+
+Several exploratory interventions focused directly on the output streams rather than the `D`-adjacent stream:
+
+- cumulative zeroing showed that removing only the final output layer could be catastrophic:
+  - prompt output stream `O`: exact accuracy fell from `100%` to `0%` when layer 9 alone was zeroed
+  - first generated output stream `O+1`: exact accuracy fell to `5.4%` when layer 9 alone was zeroed
+- donor patching into output-side layers showed that late output states could carry answer-relevant changes induced by each of `N`, `B`, and `D`
+  - for the generated `O+1` stream, the strongest donor-exact rates were `71.6%` for `N`, `70.8%` for `B`, and `70.4%` for `D`, all at layer 9
+
+Why this mattered:
+
+- These tests helped sharpen the later-integration interpretation: output-side computation is not merely a passive readout of one upstream symbolic variable.
+- They were left out of the final paper because the final sparse-circuit result communicates the same broader point more economically and with a cleaner relation-level summary.
+
+## Bounded-domain competence did not imply extrapolation
+
+We also ran two deliberately out-of-grammar checks on an earlier checkpoint:
+
+| Extrapolation condition | Digit accuracy | Exact-answer accuracy |
+| --- | ---: | ---: |
+| four-digit `N > 999` | 28.5% | 0.0% |
+| two-digit `D > 9` | 42.0% | 0.0% |
+
+Why this mattered:
+
+- These checks reinforced the final paper's deliberately bounded wording: the trained model generalizes over held-out number--base intersections **within** the task domain, but this should not be mistaken for unbounded algorithmic generalization.
+- They were not elevated into the paper because the paper's target question is causal mechanism after robust in-domain task competence, not extrapolation benchmarking.
+
+## Sparse-circuit discovery: subset-size development sweeps
+
+Before using the full validation set for the final sparse-circuit discovery run, we tested capped discovery subsets to understand runtime and stability of the greedy prefix-selection procedure.
+
+Main 10-layer kept-only held-out exact-answer accuracy by discovery cap:
+
+| Discovery subset | Seed 0 | Seed 42 | Seed 1337 |
+| --- | ---: | ---: | ---: |
+| 128 examples | 81.46% | 92.28% | 96.23% |
+| 256 examples | 90.48% | 96.40% | 98.17% |
+| 512 examples | 83.34% | 96.49% | 75.39% |
+| 2048 examples | 90.83% | 91.68% | 97.68% |
+
+Takeaways:
+
+- Capped discovery subsets were useful for runtime development but materially affected the greedy elbow-selected circuit.
+- The qualitative route backbone remained stable, but exact retained depths and kept-only accuracy were sensitive to the local prefix-selection heuristic and the discovery sample.
+- Because the 512-example run showed that larger random subsets were not automatically more reliable, the final paper analysis used the full validation set rather than a capped random subset.
+
+## Fixed-order training produced a different `D` route
+
+We also trained a 10-layer seed-1337 model without field-order permutation during training (`pFalse`). It solved the held-out task almost perfectly (`99.838%` exact-answer accuracy), but its internal route organization differed from the permutation-trained family used in the paper.
+
+Exploratory findings:
+
+- closed-form `B^D` remained strongly decodable from `D_ones` at layer 0 (`R² = 0.996`), but the quotient-like quantities peaked more strongly in `O[0]` than in `D_ones`
+- masking only the layer-0 `D_ones -> O` attention edge reduced exact-answer accuracy from `99.838%` to `32.418%`
+- route-split K/V patching reversed the main-paper pattern:
+  - `L1`-only donor substitution transferred essentially nothing (`0.041%` donor-exact)
+  - `L0 + L2+` donor substitution transferred almost perfectly (`99.816%` donor-exact)
+- full-route patching remained strongly `D`-selective but less perfectly factorized than in the `pTrue` models:
+  - donor change in `N`: `0.968%` donor-exact
+  - donor change in `B`: `2.130%` donor-exact
+  - donor change in `D`: `100.000%` donor-exact
+
+The sparse-circuit search was not reliable for this model under the paper's original greedy selection rule. It retained only `10 / 65` candidate relations and `20 / 246` candidate layer-edges, but the resulting kept-only circuit achieved only `40.926%` exact-answer accuracy. This likely reflects a search-rule failure rather than a genuinely sufficient ultra-sparse mechanism: several individually weak routes may be jointly necessary in the fixed-order model, so pruning by single-edge ablation underestimates the supporting circuit.
+
+Why this stayed out of the paper:
+
+- the paper's central causal story is about the three permutation-trained 10-layer seeds
+- the fixed-order model is a scientifically interesting contrast condition, not a robustness check for the reported mechanism
+- interpreting it properly would require a circuit search that tests joint sufficiency or add-back rescue, which is beyond the scope of the current manuscript
+
+## A 3-layer model compressed the same broad mechanism
+
+We also analyzed a 3-layer seed-1337 permutation-trained model. It solved the held-out task at `99.623%` exact-answer accuracy and showed the same broad causal story as the deeper permutation-trained models, but compressed into fewer layers.
+
+Exploratory findings:
+
+- the closed-form quantities remained strongly decodable:
+  - `B^D`: `D_ones@L0`, `R² = 0.999`
+  - `N / B^D`: `D_ones@L0`, `R² = 0.983`
+  - `floor(N / B^D)`: `D_ones@L0`, `R² = 0.983`
+  - final answer: `O[1]@L2`, `R² = 0.912`
+- cumulative `D_ones -> O` ablation again showed a sharp early dependence:
+  - clean exact accuracy: `99.623%`
+  - mask `L0` only: `99.246%`
+  - mask `L0-L1`: `49.004%`
+- route-split K/V patching again favored `L1`:
+  - `L1`-only donor exact: `83.177%`
+  - `L0 + L2+` donor exact: `6.827%`
+- full-route information patching again transferred behavior only when `D` changed:
+  - donor change in `N`: `0.000%` donor-exact
+  - donor change in `B`: `0.000%` donor-exact
+  - donor change in `D`: `99.741%` donor-exact
+- its sparse circuit retained `30 / 87` candidate relations and `52 / 204` candidate layer-edges while preserving `92.299%` exact-answer accuracy
+
+The 3-layer circuit also retained two small tag-level cross-field links, `N_tag -> B_tag -> B_tens` and `N_tag -> B_tag -> B_ones`, suggesting that the shallow model reuses some structural scaffold across fields when depth is scarce.
+
+Why this stayed out of the paper:
+
+- the 5-layer companion already provides a cleaner depth-robustness check without requiring extra prose
+- the 3-layer result is best read as an informative compression experiment, not as evidence needed for the manuscript's central claim
+
+## Release note
+
+The clean public release keeps the final reproducible paper path compact. Development-only code branches, timing runs, and intermediate artifacts that were superseded by the final analyses are intentionally not promoted into the canonical pipeline unless they answer a durable scientific question.
+
+Some exploratory patching ideas were also tried and then superseded while the causal intervention was being specified more precisely. Those implementation branches are intentionally not documented here: once the final question became “what key/value message from `D_ones` is visible to the output streams, while the source stream itself remains untouched?”, the final route-patching analyses in `Methods.md` and `RESULTS.md` became the only versions worth preserving as evidence.

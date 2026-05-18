@@ -1,0 +1,5 @@
+variant,metric,mean,ci95_low,ci95_high,n_checkpoints
+eval_clean_test,exact_answer_accuracy,0.9983473805982482,0.9950421417947447,1.0,3
+eval_kept_only_test,exact_answer_accuracy,0.9339815660832612,0.9082796232027764,0.9768443726440496,3
+sparsity,retained_relation_fraction,0.2833031946955998,0.27848101265822783,0.2857142857142857,3
+sparsity,retained_layer_edge_fraction,0.202511717226273,0.1947069943289225,0.212,3
