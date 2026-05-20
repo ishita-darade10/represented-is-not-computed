@@ -6,11 +6,11 @@ Analysis 02b: scalar-input control for the closed-form probe targets.
 The linear-probing result asks whether closed-form quantities are accessible
 from residual-stream activity. This control asks the narrower baseline question:
 how much of the same targets can be recovered by an ordinary linear regression
-from the raw scalar inputs N, B, and D alone, over the checkpoint-defined test
-sets?
+from the raw scalar inputs N, B, and D alone, over the same pooled held-out
+validation and test examples used for the activation probes?
 
-The script is intentionally checkpoint-centric: every test split is rebuilt from
-the `split_info` stored inside each checkpoint.
+The script is intentionally checkpoint-centric: every held-out split is rebuilt
+from the `split_info` stored inside each checkpoint.
 """
 
 import argparse
@@ -125,7 +125,7 @@ def analyze_one_checkpoint(checkpoint_path: str | Path, cv_folds: int) -> Tuple[
     spec = parse_checkpoint_name(path)
     payload = load_checkpoint_payload(path, map_location="cpu")
     split_info = payload["split_info"]
-    records = records_for_splits(split_info, ("test",))
+    records = records_for_splits(split_info, ("val", "test"))
     X, targets = _build_scalar_inputs_and_targets(records)
     fold_seed = int(spec.seed)
     folds = _make_folds(len(records), cv_folds=cv_folds, fold_seed=fold_seed)
@@ -152,7 +152,7 @@ def analyze_one_checkpoint(checkpoint_path: str | Path, cv_folds: int) -> Tuple[
         "checkpoint": str(path),
         "checkpoint_spec": asdict(spec),
         "split_summary": summarize_split_info(split_info),
-        "n_test_examples": len(records),
+        "n_heldout_val_test_examples": len(records),
         "fold_seed": fold_seed,
     }
     return rows, metadata
@@ -238,7 +238,7 @@ def run_analysis(checkpoints: Iterable[str | Path], run_label: str, cv_folds: in
         "bootstrap_resamples": N_BOOTSTRAP_RESAMPLES,
         "features": ["N", "B", "D"],
         "targets": [{"name": name, "label": label} for name, label in TARGETS],
-        "fold_assignment": "checkpoint seed, independently within each checkpoint-specific test set",
+        "fold_assignment": "checkpoint seed, independently within each checkpoint-specific pooled val+test set",
         "checkpoints": checkpoint_metadata,
     }
     with (out_dir / "scalar_input_control_metadata.json").open("w", encoding="utf-8") as f:

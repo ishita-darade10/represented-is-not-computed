@@ -60,14 +60,14 @@ Interpretation and nuance:
 - The separate 5-layer checkpoint shows the same qualitative pattern.
 - Control streams do not show the same closed-form decodability pattern: across the main 10-layer seeds, the best observed mean CV `R²` for `B_ones` is approximately `0.034` for the final-answer quantity and negative for the other three quantities; `N_ones` remains negative for all four quantities in this sweep.
 
-Scalar-input control over the checkpoint-specific held-out test sets:
+Scalar-input control over the checkpoint-specific pooled held-out validation and test sets:
 
 | Target | Seed 0 CV `R²` | Seed 42 CV `R²` | Seed 1337 CV `R²` | Mean CV `R²` | 95% bootstrap CI |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| `B^D` | 0.254 | 0.233 | 0.328 | 0.272 | [0.233, 0.328] |
-| `N / B^D` | 0.532 | 0.544 | 0.547 | 0.541 | [0.532, 0.547] |
-| `floor(N / B^D)` | 0.532 | 0.544 | 0.547 | 0.541 | [0.532, 0.547] |
-| `floor(N / B^D) mod B` | 0.323 | 0.321 | 0.368 | 0.337 | [0.321, 0.368] |
+| `B^D` | 0.243 | 0.162 | 0.345 | 0.250 | [0.162, 0.345] |
+| `N / B^D` | 0.548 | 0.385 | 0.561 | 0.498 | [0.385, 0.561] |
+| `floor(N / B^D)` | 0.548 | 0.385 | 0.561 | 0.498 | [0.385, 0.561] |
+| `floor(N / B^D) mod B` | 0.335 | 0.283 | 0.366 | 0.328 | [0.283, 0.366] |
 
 This is the source for the paper's brief scalar-input-control sentence in the probing section.
 

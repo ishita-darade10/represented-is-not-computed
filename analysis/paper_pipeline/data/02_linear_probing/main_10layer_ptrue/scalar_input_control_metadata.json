@@ -28,7 +28,7 @@
       "label": "floor(N / B^D) mod B"
     }
   ],
-  "fold_assignment": "checkpoint seed, independently within each checkpoint-specific test set",
+  "fold_assignment": "checkpoint seed, independently within each checkpoint-specific pooled val+test set",
   "checkpoints": [
     {
       "checkpoint": "checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt",
@@ -279,7 +279,7 @@
           ]
         }
       },
-      "n_test_examples": 2017,
+      "n_heldout_val_test_examples": 3848,
       "fold_seed": 0
     },
     {
@@ -531,7 +531,7 @@
           ]
         }
       },
-      "n_test_examples": 2164,
+      "n_heldout_val_test_examples": 4646,
       "fold_seed": 42
     },
     {
@@ -783,7 +783,7 @@
           ]
         }
       },
-      "n_test_examples": 1857,
+      "n_heldout_val_test_examples": 3677,
       "fold_seed": 1337
     }
   ]

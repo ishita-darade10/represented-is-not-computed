@@ -284,11 +284,11 @@ Representations analyzed:
 
 ### Scalar-input control
 
-The scalar-input control asks whether the probe targets are already easy linear functions of the raw input scalars alone. This is a control on the interpretation of probe magnitude, not an activation analysis.
+The scalar-input control asks whether a linear model can already recover the probe targets from the raw input scalars alone, without using network activations. This is a control on the interpretation of probe magnitude, not an activation analysis.
 
 For each of the three main 10-layer seeds:
 
-1. reconstruct that seed's checkpoint-specific canonical test split from `split_info`
+1. reconstruct that seed's checkpoint-specific canonical validation and test splits from `split_info`
 2. build a 3-dimensional feature matrix containing raw scalar `N`, `B`, and `D`
 3. use the same four target definitions as the activation probes
 4. fit ordinary least squares regressions with an explicit intercept and train-fold standardization
