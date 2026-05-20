@@ -4,7 +4,7 @@ This OSF project hosts the trained PyTorch checkpoint files used in the paper:
 
 **Represented Is Not Computed: A Causal Test of Symbolic Intermediates in a Transformer**
 
-The accompanying code repository is available at <https://github.com/novelmartis/represented-is-not-computed>. It contains the training code, evaluation code, paper-analysis pipeline, saved result tables, figures, and full documentation. This OSF project exists only to host the larger model checkpoint files that are impractical to include directly in the GitHub release.
+The accompanying code repository is available at <https://github.com/ishita-darade10/represented-is-not-computed>. It contains the training code, evaluation code, paper-analysis pipeline, saved result tables, figures, and full documentation. This OSF project exists only to host the larger model checkpoint files that are impractical to include directly in the GitHub release.
 
 ## Contents
 
@@ -49,7 +49,7 @@ To reproduce the paper analyses:
 <https://osf.io/vzj72/>
 
 **Code repository:**  
-<https://github.com/novelmartis/represented-is-not-computed>
+<https://github.com/ishita-darade10/represented-is-not-computed>
 
 ## Notes
 
