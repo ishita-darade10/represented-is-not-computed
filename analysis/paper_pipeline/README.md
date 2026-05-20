@@ -58,6 +58,17 @@ python3 analysis/paper_pipeline/analyses/02_linear_probing_closed_form.py \
   --checkpoints checkpoints/model_t_l5_mby_NB_intersection_pTrue_s1337_best.pt
 ```
 
+Scalar-input control for the main probing result:
+
+```bash
+python3 analysis/paper_pipeline/analyses/02b_scalar_input_probe_control.py \
+  --run-label main_10layer_ptrue \
+  --checkpoints \
+  checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt \
+  checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt \
+  checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt
+```
+
 ### 03. Cumulative `D_ones -> O` attention ablation
 
 ```bash
@@ -126,6 +137,24 @@ python3 analysis/paper_pipeline/analyses/05_dones_information_content_patching.p
 ```bash
 python3 analysis/paper_pipeline/analyses/06_sparse_circuit_discovery.py \
   --run-label main_10layer_ptrue_fullval \
+  --checkpoints \
+  checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt \
+  checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt \
+  checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt
+```
+
+
+### 06b. Sparse-circuit threshold sweep
+
+This reproduces the threshold-sensitivity check reported in the sparse-circuit result. It uses the same three 10-layer seeds, full validation discovery, and full held-out test evaluation.
+
+```bash
+python3 analysis/paper_pipeline/analyses/06b_sparse_circuit_threshold_sweep.py \
+  --run-label main_10layer_ptrue_threshold_sweep_fullval \
+  --discover-max-examples 0 \
+  --eval-max-examples 0 \
+  --batch-size 256 \
+  --skip-prefix-rows \
   --checkpoints \
   checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt \
   checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt \

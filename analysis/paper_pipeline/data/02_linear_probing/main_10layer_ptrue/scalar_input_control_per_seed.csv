@@ -1,0 +1,13 @@
+checkpoint,seed,num_layers,target,target_label,features,cv_r2,n_examples,cv_folds,fold_seed
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,BpowD,B^D,raw_N_B_D,0.25357335859481045,2017,5,0
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,NdivBpowD,N / B^D,raw_N_B_D,0.5324855682648777,2017,5,0
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,floorNdivBpowD,floor(N / B^D),raw_N_B_D,0.5324106925823635,2017,5,0
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt,0,10,floorNdivBpowD_modB,floor(N / B^D) mod B,raw_N_B_D,0.32305477565924623,2017,5,0
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,BpowD,B^D,raw_N_B_D,0.2329002251266601,2164,5,42
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,NdivBpowD,N / B^D,raw_N_B_D,0.5439972276453611,2164,5,42
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,floorNdivBpowD,floor(N / B^D),raw_N_B_D,0.543933355575265,2164,5,42
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt,42,10,floorNdivBpowD_modB,floor(N / B^D) mod B,raw_N_B_D,0.3209416064685171,2164,5,42
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,BpowD,B^D,raw_N_B_D,0.32844264019513447,1857,5,1337
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,NdivBpowD,N / B^D,raw_N_B_D,0.5473925148129193,1857,5,1337
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,floorNdivBpowD,floor(N / B^D),raw_N_B_D,0.5472952297145995,1857,5,1337
+checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt,1337,10,floorNdivBpowD_modB,floor(N / B^D) mod B,raw_N_B_D,0.3677477825883281,1857,5,1337

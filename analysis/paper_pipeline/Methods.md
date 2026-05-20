@@ -23,6 +23,7 @@ floor(N / B^D) mod B
 - `N ∈ {0, ..., 999}`
 - `B ∈ {2, ..., 30}`
 - for each `(N, B)`, valid `D` values run from `0` through the highest required base digit position, plus one additional out-of-range position with target `00`
+- for `N = 0`, `D = 0` is treated as the in-range digit position
 - because `D` is represented by a single character token, queries are capped at `D <= 9`
 
 ### Input formatting
@@ -281,6 +282,20 @@ Representations analyzed:
 - Probes are scored with shuffled 5-fold cross-validated `R²` within the pooled validation-plus-test set.
 - Fold assignment uses analysis RNG seed `20260517`.
 
+### Scalar-input control
+
+The scalar-input control asks whether the probe targets are already easy linear functions of the raw input scalars alone. This is a control on the interpretation of probe magnitude, not an activation analysis.
+
+For each of the three main 10-layer seeds:
+
+1. reconstruct that seed's checkpoint-specific canonical test split from `split_info`
+2. build a 3-dimensional feature matrix containing raw scalar `N`, `B`, and `D`
+3. use the same four target definitions as the activation probes
+4. fit ordinary least squares regressions with an explicit intercept and train-fold standardization
+5. score with shuffled 5-fold cross-validated `R²`
+
+The fold RNG seed is the checkpoint seed for this control (`0`, `42`, or `1337`). Across-seed means and 95% percentile-bootstrap confidence intervals use the same seed-level bootstrap convention as the rest of the paper (`100,000` resamples, bootstrap RNG seed `20260517`).
+
 ### Aggregation and visualization
 
 Main 10-layer figure:
@@ -307,7 +322,10 @@ The analysis writes:
 
 - seed-level probe rows under `data/02_linear_probing/<run_label>/per_seed_probe_rows.csv`
 - across-seed summaries under `data/02_linear_probing/<run_label>/across_seed_summary.csv`
+- scalar-input control rows under `data/02_linear_probing/<run_label>/scalar_input_control_per_seed.csv`
+- scalar-input control summaries under `data/02_linear_probing/<run_label>/scalar_input_control_summary.csv`
 - metadata under `data/02_linear_probing/<run_label>/metadata.json`
+- scalar-input control metadata under `data/02_linear_probing/<run_label>/scalar_input_control_metadata.json`
 - figures under `figures/02_linear_probing/`
 
 ## Analysis 03 — Cumulative attention ablation from `D_ones` into the output streams
@@ -534,7 +552,7 @@ For each source-donor pair:
 - all non-output query rows and all non-`D_ones` edges remain source-like
 - no donor residual state is propagated through the source network
 
-Thus, the experiment asks what information the **full attentional message** from `D_ones` to the output streams carries, rather than what is merely represented within the `D_ones` residual stream.
+Thus, the experiment asks what behaviorally effective information the **full `D_ones -> O` route** carries, rather than what is merely represented within the `D_ones` residual stream.
 
 ### Generation and metrics
 
@@ -612,6 +630,16 @@ A relation is tagged as important only if its cumulative ablation curve exhibits
 - minimum exact-accuracy drop threshold: `0.02`
 - later-layer increment threshold: later layers are retained only if they add more than `20%` of the first meaningful jump
 - plateau patience: stop after `2` consecutive non-meaningful increments
+
+### Threshold-sweep robustness check
+
+The paper-facing robustness check repeats the discovery over a `3 x 3` grid of greedy-rule thresholds:
+
+- first-drop threshold: `0.01`, `0.02`, `0.05`
+- later-drop fraction: `0.10`, `0.20`, `0.30`
+- plateau patience fixed at `2`
+
+For each grid cell, discovery uses the full validation split for each of the three main 10-layer seeds, and kept-only sufficiency evaluation uses that seed's held-out test split. The default paper circuit is the `0.02 / 0.20` cell. The threshold-sweep outputs include relation overlap with the Fig. 4 shared circuit and whether each sweep circuit contains all `17` shared relations.
 
 If a source stream is retained as important for a downstream destination, the analysis recursively asks which earlier streams support that source stream, but only through the deepest layer prefix that was required downstream. This constrains the upstream search to the depth at which that stream actually mattered for final performance.
 

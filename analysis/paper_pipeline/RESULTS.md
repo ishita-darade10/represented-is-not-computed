@@ -55,9 +55,21 @@ Interpretation and nuance:
 
 - The first three closed-form quantities are most strongly decoded from the `D_ones` stream, with `B^D` peaking earlier than the quotient-like quantities in the across-seed mean curves.
 - The final answer quantity is strongest in the output stream, especially late `O[1]`.
+- A scalar-input control confirms that the high activation-probe scores are not explained merely by linear dependence of the targets on raw `N`, `B`, and `D`.
 - The layer of the single-seed maximum is not identical for every seed for the quotient-like quantities; the paper-facing claim is about the across-seed layer-wise pattern, not exact equality of every individual maximum.
 - The separate 5-layer checkpoint shows the same qualitative pattern.
 - Control streams do not show the same closed-form decodability pattern: across the main 10-layer seeds, the best observed mean CV `R²` for `B_ones` is approximately `0.034` for the final-answer quantity and negative for the other three quantities; `N_ones` remains negative for all four quantities in this sweep.
+
+Scalar-input control over the checkpoint-specific held-out test sets:
+
+| Target | Seed 0 CV `R²` | Seed 42 CV `R²` | Seed 1337 CV `R²` | Mean CV `R²` | 95% bootstrap CI |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| `B^D` | 0.254 | 0.233 | 0.328 | 0.272 | [0.233, 0.328] |
+| `N / B^D` | 0.532 | 0.544 | 0.547 | 0.541 | [0.532, 0.547] |
+| `floor(N / B^D)` | 0.532 | 0.544 | 0.547 | 0.541 | [0.532, 0.547] |
+| `floor(N / B^D) mod B` | 0.323 | 0.321 | 0.368 | 0.337 | [0.321, 0.368] |
+
+This is the source for the paper's brief scalar-input-control sentence in the probing section.
 
 ## Result 03 — Output streams depend primarily on early `D_ones` information
 
@@ -179,7 +191,7 @@ Interpretation and nuance:
 - The 5-layer checkpoint reproduces the same qualitative dissociation.
 
 
-## Result 05 — The full `D_ones -> O` attentional message is selectively `D`-dependent
+## Result 05 — The full `D_ones -> O` route is selectively `D`-dependent
 
 Using the same held-out test sources across all three conditions, we paired each retained source with one donor that differed only in `N`, one that differed only in `B`, and one that differed only in `D`. Sources were retained only if the unpatched model answered them exactly correctly, so the analysis isolates transfer away from a solved source computation. We then patched the donor `D_ones` `K/V` readout into the output-stream query rows at every layer while leaving the source `D_ones` stream itself unchanged.
 
@@ -224,10 +236,10 @@ Main 10-layer digit-level means across seeds:
 
 Interpretation and nuance:
 
-- Replacing the **entire** `D_ones -> O` attentional message flips behavior almost perfectly when only `D` changes.
+- Replacing the **entire** `D_ones -> O` route flips behavior almost perfectly when only `D` changes.
 - The same intervention leaves the model completely source-like when only `N` or only `B` changes.
 - Because the same clean-correct source examples are used in all three donor conditions, the contrast is not an artifact of comparing different source populations or of pre-existing source errors.
-- Thus, the causal message sent from `D_ones` to the output streams is highly selective for `D`-dependent information, even though `D_ones` residuals also linearly encode quantities involving `N` and `B` in Analysis 02.
+- Thus, the behaviorally effective information carried from `D_ones` to the output streams is highly selective for `D`-dependent information, even though `D_ones` residuals also linearly encode quantities involving `N` and `B` in Analysis 02.
 - The 5-layer checkpoint shows the same qualitative selectivity.
 
 ## Result 06 — A sparse, mostly factorized circuit preserves most held-out performance
@@ -267,6 +279,17 @@ Coverage of each checkpoint-specific circuit by the all-seed intersection:
 | 1337 | 18 | 17 | 94.44% |
 
 The only retained relation that is not universal is `B_tens -> O[0]`, which is present in seeds `42` and `1337` but absent in seed `0`.
+
+
+Threshold-sweep robustness check:
+
+- Grid: first-drop threshold `{0.01, 0.02, 0.05}` crossed with later-drop fraction `{0.10, 0.20, 0.30}`, for `27` seed-by-threshold checks.
+- Reference: the all-seed shared circuit from the default `0.02 / 0.20` cell, containing `17` relations.
+- Mean relation-set overlap with the reference circuit: `92.77%`.
+- Range of relation-set overlap with the reference circuit: `83.33%` to `100.00%`.
+- Checks containing all `17` shared relations: `21 / 27`.
+- Exact reference matches: `9 / 27`.
+- Upstream routes first combining `N`, `B`, and `D`: no stable route was found. The only exception was `N_tag -> B_tag` for seed `1337` at the loosest first-drop threshold (`3 / 27` checks).
 
 Relations retained in all three circuits:
 

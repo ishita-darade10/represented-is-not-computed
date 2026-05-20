@@ -1,0 +1,2 @@
+n_seed_threshold_checks,reference_relation_count,iou_with_reference_mean,iou_with_reference_min,iou_with_reference_max,contains_all_reference_count,exact_reference_match_count,reference_relations
+27,17,0.927701333944884,0.8333333333333334,1.0,21,9,B_ones->O[0];B_ones->O[1];B_tag->B_ones;B_tag->B_tens;B_tens->B_ones;D_ones->O[0];D_ones->O[1];D_tag->D_ones;N_hundreds->O[0];N_hundreds->O[1];N_ones->O[0];N_ones->O[1];N_tag->N_hundreds;N_tag->N_tens;N_tens->O[0];N_tens->O[1];O[0]->O[1]
