@@ -40,18 +40,64 @@ Why this mattered:
 
 ## Output-side exploratory tests supported late integration
 
-Several exploratory interventions focused directly on the output streams rather than the `D`-adjacent stream:
+Several exploratory interventions focused directly on the output streams rather than the `D`-adjacent stream. These were useful for thinking, but they were single-checkpoint / development analyses and were superseded by the cleaner sparse-circuit result.
 
-- cumulative zeroing showed that removing only the final output layer could be catastrophic:
-  - prompt output stream `O`: exact accuracy fell from `100%` to `0%` when layer 9 alone was zeroed
-  - first generated output stream `O+1`: exact accuracy fell to `5.4%` when layer 9 alone was zeroed
-- donor patching into output-side layers showed that late output states could carry answer-relevant changes induced by each of `N`, `B`, and `D`
-  - for the generated `O+1` stream, the strongest donor-exact rates were `71.6%` for `N`, `70.8%` for `B`, and `70.4%` for `D`, all at layer 9
+### Output-stream zeroing
+
+Cumulative and single-layer zeroing suggested that the final output-side states were behaviorally fragile:
+
+- prompt output stream `O`: exact accuracy fell from `100%` to `0%` when layer 9 alone was zeroed
+- first generated output stream `O+1`: exact accuracy fell to `5.4%` when layer 9 alone was zeroed
+
+### Output-stream contrastive patching for `N`, `B`, and `D`
+
+We also patched output-side residual states using donor examples where exactly one factor changed while the other two were held fixed. The exploratory script used the legacy names `target` for the unpatched prompt and `source` for the donor residual being inserted; the values below are donor-answer match rates after patching one output-side layer.
+
+| Patched stream | Changed factor | Best layer | Best donor-exact rate |
+| --- | --- | ---: | ---: |
+| `O` | `N` | 8 | `19.2%` |
+| `O` | `B` | 5 | `45.2%` |
+| `O` | `D` | 7 | `17.6%` |
+| `O+1` | `N` | 9 | `71.6%` |
+| `O+1` | `B` | 9 | `70.8%` |
+| `O+1` | `D` | 9 | `70.4%` |
+
+Digit-level behavior was sharper than exact-answer behavior. For example, patching `O` late could almost completely set the first digit while leaving the second digit less donor-like; patching `O+1` at layer 9 made the second digit donor-like for all three factor changes.
 
 Why this mattered:
 
-- These tests helped sharpen the later-integration interpretation: output-side computation is not merely a passive readout of one upstream symbolic variable.
-- They were left out of the final paper because the final sparse-circuit result communicates the same broader point more economically and with a cleaner relation-level summary.
+- These tests helped sharpen the late-integration interpretation: output-side computation is not merely a passive readout of one upstream symbolic variable.
+- The output streams can carry answer-relevant changes induced by `N`, `B`, and `D`, consistent with the paper's statement that output-side integration remains to be decomposed.
+- They were left out of the final paper because they were exploratory, single-checkpoint, and less clean than the sparse-circuit result, which communicates the same broader point with a reproducible multi-seed relation-level summary.
+
+## Head-level decoding and ablation shenanigans
+
+We also explored whether individual attention heads explained the early `D`-adjacent route. This was done before the final paper pipeline settled on route-level K/V patching, so the results are best read as development notes rather than evidence for the manuscript.
+
+Head-level probes found several heads whose outputs or routed values made `D`, `B`, or `B^D` decodable. Examples from the archived `pre_O` head sweep include:
+
+- several layer-0 heads had near-perfect `D` decodability (`R²` close to `1.0`)
+- layer-0 head 10 had the strongest single-head `B^D` signal in that sweep (`R² = 0.639`) and a residualized `B^D` signal after controlling for `D` (`R² = 0.418`)
+- per-`D` specialization plots showed that many heads behaved differently across digit positions, especially for low `D` values with more examples
+
+But causal ablations did not turn this into a clean head-level story:
+
+| Exploratory ablation | Exact accuracy |
+| --- | ---: |
+| baseline, 100-sample check | `100%` |
+| ablate layer-0 head 10 only | `100%` |
+| ablate layer-0 head 11 only | `100%` |
+| ablate top 6 ranked heads per layer | `100%` |
+| ablate top 10 ranked heads per layer | `67%` |
+| ablate bottom 10 ranked heads per layer | `35%` |
+| ablate all heads per layer in the tested route | `36%` |
+
+Why this mattered:
+
+- Individual heads could make attractive representational stories, but single-head causal tests were not decisive.
+- Large grouped ablations were damaging, but they were coarse and hard to interpret because they removed many heads at once.
+- This pushed the final paper toward route-level interventions: asking what information the output streams read from `D_ones`, while keeping the source `D_ones` computation itself intact.
+- The paper therefore does not claim a head-level mechanism; it explicitly stops at the route level.
 
 ## Bounded-domain competence did not imply extrapolation
 
