@@ -1,6 +1,6 @@
 # Represented Is Not Computed
 
-Self-contained code and artifact release for the paper **“Represented Is Not Computed: A Causal Test of Symbolic Intermediates in a Transformer.”**
+Self-contained code and artifact release for the paper **“Represented Is Not Computed: A Causal Test of Candidate Algorithmic Intermediates in a Transformer.”**
 
 This repository is organized around the following pieces:
 
