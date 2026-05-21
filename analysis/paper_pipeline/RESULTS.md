@@ -23,7 +23,7 @@ Across the three independently trained networks:
 Interpretation:
 
 - The trained Transformer generalizes essentially perfectly to held-out `(N, B)` intersections defined by checkpoint-specific `N` and `B` sets.
-- This supports the opening empirical claim that the task is solved systematically enough to justify mechanistic analysis, rather than by memorizing the exact held-out `(N, B)` training pairs.
+- This supports the opening empirical claim that the task is solved systematically enough to justify mechanistic analysis, rather than by memorizing the evaluated held-out `(N, B)` pairs as training examples.
 
 ### Companion checks
 
@@ -56,9 +56,19 @@ Interpretation and nuance:
 - The first three closed-form quantities are most strongly decoded from the `D_ones` stream, with `B^D` peaking earlier than the quotient-like quantities in the across-seed mean curves.
 - The final answer quantity is strongest in the output stream, especially late `O[1]`.
 - A scalar-input control confirms that the high activation-probe scores are not explained merely by linear dependence of the targets on raw `N`, `B`, and `D`.
+- An initialization-probe baseline shows that some decodability is already present before training, especially for quotient-like quantities, but training adds structured signal: `B^D` gains most in `D_ones` at layer `0`, quotient-like targets gain later in `D_ones`, and the final answer gains most late in output streams.
 - The layer of the single-seed maximum is not identical for every seed for the quotient-like quantities; the paper-facing claim is about the across-seed layer-wise pattern, not exact equality of every individual maximum.
 - The separate 5-layer checkpoint shows the same qualitative pattern.
 - Control streams do not show the same closed-form decodability pattern: across the main 10-layer seeds, the best observed mean CV `R²` for `B_ones` is approximately `0.034` for the final-answer quantity and negative for the other three quantities; `N_ones` remains negative for all four quantities in this sweep.
+
+Initialization-probe baseline, summarized as positive percent of initialization-to-ceiling `R²` gap closed by training:
+
+| Target | Stream/layer | Mean gap closed | 95% bootstrap CI | Mean init `R²` | Mean trained `R²` |
+| --- | --- | ---: | ---: | ---: | ---: |
+| `B^D` | `D_ones`, layer `0` | 98.00% | [96.00%, 99.20%] | 0.913 | 0.998 |
+| `N / B^D` | `D_ones`, layer `6` | 32.80% | [15.30%, 55.00%] | 0.941 | 0.960 |
+| `floor(N / B^D)` | `D_ones`, layer `6` | 32.80% | [15.30%, 55.00%] | 0.942 | 0.960 |
+| `floor(N / B^D) mod B` | `O[1]`, layer `9` | 89.10% | [87.20%, 90.50%] | 0.447 | 0.940 |
 
 Scalar-input control over the checkpoint-specific pooled held-out validation and test sets:
 
@@ -139,7 +149,7 @@ Interpretation and nuance:
 - The result does not say that later `D_ones` states are uninformative; Analysis 02 shows that quotient-like quantities are strongly decodable there. It says that the output streams rely most heavily on the early route for behavior.
 - The separate 5-layer checkpoint shows the same qualitative structure.
 
-## Result 04 — Layer-1 `D_ones -> O` attention is the stronger normal-operation route on average
+## Result 04 — Layer-1 `D_ones -> O` attention provides substantial normal-operation control
 
 Using ordered source→donor test pairs matched on the same `(N, B)` and differing only in `D`, we patched donor `D_ones` `K/V` into the output-stream query rows while leaving the source `D_ones` stream itself unchanged.
 

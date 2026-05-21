@@ -296,6 +296,16 @@ For each of the three main 10-layer seeds:
 
 The fold RNG seed is the checkpoint seed for this control (`0`, `42`, or `1337`). Across-seed means and 95% percentile-bootstrap confidence intervals use the same seed-level bootstrap convention as the rest of the paper (`100,000` resamples, bootstrap RNG seed `20260517`).
 
+### Initialization-probe baseline
+
+The initialization baseline asks how much of the probe decodability is present before learning. For each of the three main seeds, the analysis reconstructs the same architecture using the seed and checkpoint-stored split metadata, but deliberately does not load the trained weights. It then repeats the same autoregressive activation extraction and 5-fold OLS probe protocol on the same pooled held-out validation-plus-test examples.
+
+For Fig. 2, the dashed lines show initialized-network `R²` for the highlighted streams (`D_ones`, `O[0]`, `O[1]`). The insets show positive gap-to-ceiling closure:
+
+`100 * max(0, (R2_trained - R2_init) / (1 - R2_init))`
+
+where the ceiling is `R² = 1`. This normalizes training-added decodability by how much room remained above the initialization baseline.
+
 ### Aggregation and visualization
 
 Main 10-layer figure:
@@ -309,6 +319,8 @@ Main 10-layer figure:
   - `100,000` bootstrap resamples
   - bootstrap RNG seed `20260517`
 - `D_ones`, `O[0]`, and `O[1]` are visually emphasized; all other streams are shown with lower opacity
+- dashed lines show initialization baselines for the emphasized streams
+- insets show positive gap-to-ceiling closure for the emphasized streams
 
 Separate 5-layer figure:
 
@@ -326,6 +338,7 @@ The analysis writes:
 - scalar-input control summaries under `data/02_linear_probing/<run_label>/scalar_input_control_summary.csv`
 - metadata under `data/02_linear_probing/<run_label>/metadata.json`
 - scalar-input control metadata under `data/02_linear_probing/<run_label>/scalar_input_control_metadata.json`
+- initialization-control rows and summaries under `data/02_linear_probing/<run_label>/init_control/`
 - figures under `figures/02_linear_probing/`
 
 ## Analysis 03 — Cumulative attention ablation from `D_ones` into the output streams

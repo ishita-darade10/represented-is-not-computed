@@ -17,6 +17,8 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.ticker import PercentFormatter
+from matplotlib.lines import Line2D
+from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 
 
 ROOT = Path(__file__).resolve().parent
@@ -59,7 +61,7 @@ def _set_style() -> None:
             "ytick.color": COLORS["ink"],
             "axes.labelcolor": COLORS["ink"],
             "text.color": COLORS["ink"],
-            "savefig.transparent": True,
+            "savefig.transparent": False,
         }
     )
 
@@ -79,12 +81,26 @@ def _panel_label(ax: plt.Axes, label: str, dx: float = -0.16, dy: float = 1.10) 
 
 def _save(fig: plt.Figure, stem: str) -> None:
     PAPER_FIGURES.mkdir(parents=True, exist_ok=True)
-    fig.savefig(PAPER_FIGURES / f"{stem}.pdf", bbox_inches="tight")
-    fig.savefig(PAPER_FIGURES / f"{stem}.svg", bbox_inches="tight")
+    fig.savefig(PAPER_FIGURES / f"{stem}.pdf", bbox_inches="tight", facecolor="white")
+    fig.savefig(PAPER_FIGURES / f"{stem}.svg", bbox_inches="tight", facecolor="white")
 
 
 def render_figure_2() -> None:
     rows = _read_csv(DATA / "02_linear_probing" / "main_10layer_ptrue" / "across_seed_summary.csv")
+    init_rows = _read_csv(
+        DATA
+        / "02_linear_probing"
+        / "main_10layer_ptrue"
+        / "init_control"
+        / "across_seed_init_probe_summary.csv"
+    )
+    gap_rows = _read_csv(
+        DATA
+        / "02_linear_probing"
+        / "main_10layer_ptrue"
+        / "init_control"
+        / "trained_vs_init_gap_closed_positive_summary.csv"
+    )
 
     targets = [
         ("BpowD", r"$B^D$"),
@@ -93,16 +109,25 @@ def render_figure_2() -> None:
         ("floorNdivBpowD_modB", r"$\lfloor N / B^D \rfloor\ \mathrm{mod}\ B$"),
     ]
     stream_style = {
-        "D_ones": dict(color=COLORS["D"], lw=2.5, alpha=1.0, label=r"$D_{\mathrm{ones}}$"),
-        "O[0]": dict(color=COLORS["O0"], lw=2.2, alpha=1.0, label=r"$O[0]$"),
-        "O[1]": dict(color=COLORS["O1"], lw=2.2, alpha=1.0, label=r"$O[1]$"),
-        "N_ones": dict(color=COLORS["N"], lw=1.35, alpha=0.28, label=r"$N_{\mathrm{ones}}$"),
-        "B_ones": dict(color=COLORS["B"], lw=1.35, alpha=0.28, label=r"$B_{\mathrm{ones}}$"),
+        "D_ones": dict(color=COLORS["D"], lw=1.75, alpha=1.0, label=r"$D_{\mathrm{ones}}$"),
+        "O[0]": dict(color=COLORS["O0"], lw=1.62, alpha=1.0, label=r"$O[0]$"),
+        "O[1]": dict(color=COLORS["O1"], lw=1.62, alpha=1.0, label=r"$O[1]$"),
+        "N_ones": dict(color=COLORS["N"], lw=0.95, alpha=0.24, label=r"$N_{\mathrm{ones}}$"),
+        "B_ones": dict(color=COLORS["B"], lw=0.95, alpha=0.24, label=r"$B_{\mathrm{ones}}$"),
     }
+    highlighted = {"D_ones", "O[0]", "O[1]"}
 
     fig, axes = plt.subplots(2, 2, figsize=(7.0, 5.25), sharex=True, sharey=True)
     axes_flat = axes.reshape(-1)
     for idx, (ax, (target, title)) in enumerate(zip(axes_flat, targets)):
+        for stream in ["D_ones", "O[0]", "O[1]"]:
+            style = stream_style[stream]
+            subset = [r for r in init_rows if r["target"] == target and r["stream"] == stream]
+            subset.sort(key=lambda r: int(r["representation_index"]))
+            xs = np.asarray([int(r["representation_index"]) for r in subset], dtype=float)
+            ys = np.asarray([float(r["mean_cv_r2"]) for r in subset], dtype=float)
+            ax.plot(xs, ys, color=style["color"], lw=1.05, alpha=0.55, ls=(0, (3, 2)), zorder=1)
+
         for stream, style in stream_style.items():
             subset = [r for r in rows if r["target"] == target and r["stream"] == stream]
             subset.sort(key=lambda r: int(r["representation_index"]))
@@ -110,8 +135,16 @@ def render_figure_2() -> None:
             ys = np.asarray([float(r["mean_cv_r2"]) for r in subset], dtype=float)
             lo = np.asarray([float(r["ci95_low_bootstrap_percentile"]) for r in subset], dtype=float)
             hi = np.asarray([float(r["ci95_high_bootstrap_percentile"]) for r in subset], dtype=float)
-            ax.plot(xs, ys, **style)
-            ax.fill_between(xs, lo, hi, color=style["color"], alpha=0.13 if stream in {"D_ones", "O[0]", "O[1]"} else 0.025, linewidth=0)
+            ax.plot(xs, ys, **style, zorder=3)
+            ax.fill_between(
+                xs,
+                lo,
+                hi,
+                color=style["color"],
+                alpha=0.10 if stream in highlighted else 0.018,
+                linewidth=0,
+                zorder=2,
+            )
 
         ax.axhline(0.0, color=COLORS["muted"], lw=0.8, ls="--", alpha=0.65)
         ax.set_title(title, pad=5)
@@ -122,17 +155,62 @@ def render_figure_2() -> None:
         ax.grid(axis="y", color=COLORS["grid"], alpha=0.55, linewidth=0.7)
         _panel_label(ax, "ABCD"[idx], dx=-0.13, dy=1.14)
 
+        ins = inset_axes(
+            ax,
+            width="45%",
+            height="34%",
+            loc="lower right",
+            bbox_to_anchor=(0, 0.08, 1, 1),
+            bbox_transform=ax.transAxes,
+            borderpad=0.55,
+        )
+        ins.set_zorder(10)
+        ins.set_facecolor("white")
+        ins.patch.set_alpha(1.0)
+        for spine in ins.spines.values():
+            spine.set_edgecolor("#CBD5E1")
+            spine.set_linewidth(0.55)
+        for stream in ["D_ones", "O[0]", "O[1]"]:
+            style = stream_style[stream]
+            subset = [r for r in gap_rows if r["target"] == target and r["stream"] == stream]
+            subset.sort(key=lambda r: int(r["representation_index"]))
+            xs = np.asarray([int(r["representation_index"]) for r in subset], dtype=float)
+            ys = 100.0 * np.asarray([float(r["mean_positive_fraction_remaining_gap_closed"]) for r in subset], dtype=float)
+            lo = 100.0 * np.asarray([float(r["ci95_low_bootstrap_percentile"]) for r in subset], dtype=float)
+            hi = 100.0 * np.asarray([float(r["ci95_high_bootstrap_percentile"]) for r in subset], dtype=float)
+            ins.plot(xs, ys, color=style["color"], lw=0.9, alpha=0.95)
+            ins.fill_between(xs, lo, hi, color=style["color"], alpha=0.08, linewidth=0)
+        ins.set_xlim(-0.12, 10.12)
+        ins.set_ylim(-3, 103)
+        ins.set_xticks(np.arange(11))
+        ins.set_xticklabels(["in", "", "", "", "", "L4", "", "", "", "", "L9"], fontsize=5.8)
+        ins.set_yticks([0, 50, 100])
+        ins.set_yticklabels(["0", "50", "100"], fontsize=5.8)
+        ins.tick_params(length=1.8, pad=1.0, width=0.45)
+        ins.text(
+            0.50,
+            1.08,
+            "Training gain\n(% gap-to-ceiling closed)",
+            transform=ins.transAxes,
+            fontsize=5.25,
+            va="top",
+            ha="center",
+            color=COLORS["ink"],
+        )
+
     axes[0, 0].set_ylabel(r"5-fold CV $R^2$")
     axes[1, 0].set_ylabel(r"5-fold CV $R^2$")
     axes[1, 0].set_xlabel("Representation")
     axes[1, 1].set_xlabel("Representation")
 
     handles, labels = axes[0, 0].get_legend_handles_labels()
+    handles = handles + [Line2D([0], [0], color=COLORS["muted"], lw=1.25, alpha=0.65, ls=(0, (3, 2)))]
+    labels = labels + ["initialization"]
     fig.legend(
         handles,
         labels,
         loc="lower center",
-        ncol=5,
+        ncol=6,
         frameon=False,
         bbox_to_anchor=(0.5, -0.02),
         handlelength=2.2,
@@ -140,7 +218,6 @@ def render_figure_2() -> None:
     fig.subplots_adjust(left=0.09, right=0.995, top=0.93, bottom=0.16, wspace=0.16, hspace=0.28)
     _save(fig, "figure 2")
     plt.close(fig)
-
 
 def _blocked_label(blocked_layers: str, sweep: str) -> str:
     if not blocked_layers:

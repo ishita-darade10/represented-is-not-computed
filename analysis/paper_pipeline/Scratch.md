@@ -38,6 +38,67 @@ Why this mattered:
 - This was the first clear hint that quotient-like quantities could be easy to decode from the `D`-adjacent stream while the answer itself consolidated later on the output side.
 - The final paper does not rely on these single-checkpoint values; the three-seed linear-probing analysis replaces them with the final reported result.
 
+## Probe-control checks around correlation, residualization, and initialization
+
+After the paper-facing probe result was in place, we ran a few additional checks to understand why quotient-like quantities could be highly decodable from `D_ones` even very early. These checks are exploratory qualifiers for interpretation, not separate causal evidence.
+
+### Correlation with `B^D` did not explain early quotient-like decoding
+
+One worry was that early `N / B^D` decodability might be a side effect of correlation with `B^D`, since `B^D` itself is nearly perfectly decodable from `D_ones` at layer 0. A direct linear regression from `B^D` to `N / B^D` over the same held-out examples explained little variance:
+
+- linear `B^D -> N / B^D`: mean `R² = 0.029`, 95% CI `[0.025, 0.037]`
+- `D_ones` layer 0 probe for original `N / B^D`: mean `R² = 0.948`
+- `D_ones` layer 0 probe for `N / B^D` residualized against `B^D`: mean `R² = 0.946`
+- `D_ones` layer 2 probe for original `N / B^D`: mean `R² = 0.960`
+- `D_ones` layer 2 probe for `N / B^D` residualized against `B^D`: mean `R² = 0.956`
+
+Takeaway: the early quotient-like signal is not just a linear echo of the `B^D` signal.
+
+### Incremental residualization preserved the same broad probe structure
+
+We then residualized each target against progressively richer scalar baselines:
+
+- `B^D` residualized against raw `B,D`
+- `N / B^D` residualized against raw `N,B,D` plus `B^D`
+- `floor(N / B^D)` residualized against raw `N,B,D`, `B^D`, and `N / B^D`
+- answer residualized against raw `N,B,D`, `B^D`, `N / B^D`, and `floor(N / B^D)`
+
+The scalar baselines were strong for some targets and weak for others:
+
+- scalar baseline for residualized `B^D`: mean `R² = 0.222`, 95% CI `[0.134, 0.317]`
+- scalar baseline for residualized `N / B^D`: mean `R² = 0.503`, 95% CI `[0.392, 0.570]`
+- scalar baseline for residualized `floor(N / B^D)`: essentially `R² = 1.000` after including `N / B^D`, making this residual target uninformative
+- scalar baseline for residualized answer: mean `R² = 0.366`, 95% CI `[0.358, 0.374]`
+
+The residual-stream probes still carried substantial incremental signal:
+
+- residualized `B^D` remained nearly perfectly decodable from `D_ones` at layer 0 (`R² ≈ 0.998`)
+- residualized `N / B^D` remained strongly decodable from `D_ones`, peaking around layer 6 (`R² ≈ 0.935`) and already high at layer 0 (`R² ≈ 0.923`)
+- residualized answer information was strongest late in the output streams (`O[1]` late `R² ≈ 0.891`; `O[0]` late `R² ≈ 0.846`)
+
+Takeaway: the high probe scores are not fully reducible to trivial scalar correlations among the target variables. The residual stream makes additional target-aligned structure linearly accessible, especially in `D_ones` and the output streams.
+
+### Initialization probes showed that high decodability is not automatically learned computation
+
+We also reconstructed untrained models using the same architectures, seeds, and held-out splits, without loading checkpoint weights. These initialized models had near-zero autoregressive task competence:
+
+| Seed | Exact-answer accuracy | First digit | Second digit |
+| ---: | ---: | ---: | ---: |
+| 0 | `0.15%` | `2.43%` | `7.34%` |
+| 42 | `0.05%` | `0.83%` | `7.76%` |
+| 1337 | `0.00%` | `0.11%` | `6.30%` |
+
+Despite this, some closed-form quantities were already highly linearly decodable at initialization. The final paper therefore reports initialization baselines and the positive fraction of the initialization-to-ceiling `R²` gap closed by training:
+
+| Quantity | Stream/layer | Gap-to-ceiling closed by training | Init `R²` | Trained `R²` |
+| --- | --- | ---: | ---: | ---: |
+| `B^D` | `D_ones`, layer 0 | `98.00%` `[96.00%, 99.20%]` | `0.913` | `0.998` |
+| `N / B^D` | `D_ones`, layer 6 | `32.80%` `[15.30%, 55.00%]` | `0.941` | `0.960` |
+| `floor(N / B^D)` | `D_ones`, layer 6 | `32.80%` `[15.30%, 55.00%]` | `0.942` | `0.960` |
+| answer | `O[1]`, layer 9 | `89.10%` `[87.20%, 90.50%]` | `0.447` | `0.940` |
+
+Takeaway: training clearly sculpts task-relevant accessibility, especially for early `B^D` in `D_ones` and late answer information in the output streams. But the initialized baselines also show why decodability alone should not be read as evidence of learned causal use.
+
 ## Output-side exploratory tests supported late integration
 
 Several exploratory interventions focused directly on the output streams rather than the `D`-adjacent stream. These were useful for thinking, but they were single-checkpoint / development analyses and were superseded by the cleaner sparse-circuit result.
@@ -191,4 +252,4 @@ Why this stayed out of the paper:
 
 The clean public release keeps the final reproducible paper path compact. Development-only code branches, timing runs, and intermediate artifacts that were superseded by the final analyses are intentionally not promoted into the canonical pipeline unless they answer a durable scientific question.
 
-Some exploratory patching ideas were also tried and then superseded while the causal intervention was being specified more precisely. Those implementation branches are intentionally not documented here: once the final question became “what key/value message from `D_ones` is visible to the output streams, while the source stream itself remains untouched?”, the final route-patching analyses in `Methods.md` and `RESULTS.md` became the only versions worth preserving as evidence.
+Some exploratory patching ideas were also tried and then superseded while the causal intervention was being specified more precisely. Those implementation branches are intentionally not documented here: once the final question became “what key/value information from `D_ones` is visible to the output streams, while the source stream itself remains untouched?”, the final route-patching analyses in `Methods.md` and `RESULTS.md` became the only versions worth preserving as evidence.

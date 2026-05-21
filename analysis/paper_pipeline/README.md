@@ -69,6 +69,17 @@ python3 analysis/paper_pipeline/analyses/02b_scalar_input_probe_control.py \
   checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt
 ```
 
+Initialization-probe baseline used in Fig. 2:
+
+```bash
+python3 analysis/paper_pipeline/analyses/02c_initialized_linear_probing_closed_form.py \
+  --run-label main_10layer_ptrue \
+  --checkpoints \
+  checkpoints/model_t_l10_mby_NB_intersection_pTrue_s0_best.pt \
+  checkpoints/model_t_l10_mby_NB_intersection_pTrue_s42_best.pt \
+  checkpoints/model_t_l10_mby_NB_intersection_pTrue_s1337_best.pt
+```
+
 ### 03. Cumulative `D_ones -> O` attention ablation
 
 ```bash
