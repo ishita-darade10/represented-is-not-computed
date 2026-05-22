@@ -9,13 +9,5 @@ venv/
 # Large model artifacts are distributed separately.
 checkpoints/*.pt
 
-# LaTeX build by-products
-paper/*.aux
-paper/*.log
-paper/*.out
-paper/*.fls
-paper/*.fdb_latexmk
-paper/*.synctex.gz
-
 # OSF project text is maintained outside the public code repo.
 OSF_WIKI.md

@@ -253,3 +253,35 @@ Why this stayed out of the paper:
 The clean public release keeps the final reproducible paper path compact. Development-only code branches, timing runs, and intermediate artifacts that were superseded by the final analyses are intentionally not promoted into the canonical pipeline unless they answer a durable scientific question.
 
 Some exploratory patching ideas were also tried and then superseded while the causal intervention was being specified more precisely. Those implementation branches are intentionally not documented here: once the final question became “what key/value information from `D_ones` is visible to the output streams, while the source stream itself remains untouched?”, the final route-patching analyses in `Methods.md` and `RESULTS.md` became the only versions worth preserving as evidence.
+
+## Untrained LSTM probe baseline: high decodability is not only a Transformer quirk
+
+To test whether the high linear readability of closed-form quantities was specific to Transformer residual streams, we ran a scratch baseline with a different random architecture.
+
+Protocol:
+
+- 10-layer stacked LSTM, hidden size 384, random/untrained weights.
+- Same tokenizer and canonical `N...B...D...O` examples as the paper pipeline.
+- The paper checkpoints were used only to recover seed identities and checkpoint-specific validation/test splits; trained checkpoint weights were not loaded into the LSTM.
+- Linear probes used the same pooled held-out validation+test examples and 5-fold CV protocol as the paper's closed-form probe analysis.
+- For `O[1]`, the LSTM generated its own first answer digit and then conditioned on that generated digit before the second-pass state was collected, matching the autoregressive protocol.
+
+Key across-seed results:
+
+| Target | Best relevant LSTM state | Mean CV `R²` | 95% CI |
+| --- | --- | ---: | ---: |
+| `B^D` | `D_ones`, layer 0 | 0.986 | [0.975, 0.998] |
+| `N / B^D` | `D_ones`, layer 1 | 0.806 | [0.797, 0.813] |
+| `floor(N / B^D)` | `D_ones`, layer 1 | 0.806 | [0.797, 0.813] |
+| `floor(N / B^D) mod B` | `O[1]`, layer 0 | 0.529 | [0.504, 0.566] |
+
+Takeaway:
+
+- Very high `B^D` decodability and substantial quotient-like decodability can appear even in an untrained non-Transformer architecture.
+- This makes it less plausible that high closed-form decodability is a Transformer-specific quirk or, by itself, evidence of learned causal computation.
+- The result is exploratory and stays out of the paper-facing pipeline; it is useful mainly as a qualifier for interpreting probe success.
+
+Workspace files:
+
+- script: `analysis/scratch/lstm_probe_baseline/run_untrained_lstm_linear_probes.py`
+- results: `analysis/scratch_results/lstm_probe_baseline/untrained_10layer_hidden384_main_splits/`
