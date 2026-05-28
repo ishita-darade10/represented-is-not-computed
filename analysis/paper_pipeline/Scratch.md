@@ -285,3 +285,73 @@ Workspace files:
 
 - script: `analysis/scratch/lstm_probe_baseline/run_untrained_lstm_linear_probes.py`
 - results: `analysis/scratch_results/lstm_probe_baseline/untrained_10layer_hidden384_main_splits/`
+
+## Symbolic permutation probes: decodability is broad, not specific
+
+Giacomo Aldegheri suggested a useful stress test for the probe result: if `B^D` and `N / B^D` are highly decodable, are nearby but non-hypothesized symbolic quantities also decodable? We therefore ran workspace-only probes for ordered symbolic permutations of the two main closed-form families.
+
+Target families:
+
+- power targets: all ordered `X^Y` with `X,Y ∈ {N,B,D}` and `X != Y`
+  - hypothesized: `B^D`
+  - controls: `D^B`, `N^B`, `B^N`, `N^D`, `D^N`
+- quotient targets: all ordered `X / Y^Z` using each of `N,B,D` once
+  - hypothesized: `N / B^D`
+  - controls: `N / D^B`, `B / N^D`, `B / D^N`, `D / N^B`, `D / B^N`
+
+Protocol:
+
+- streams: `D_ones`, `O[0]`, `O[1]`
+- seeds: the three main 10-layer permutation-trained seeds
+- examples: pooled validation+test splits reconstructed from each checkpoint
+- model conditions: initialized network with the same seed/architecture/split, and trained network
+- probe protocol: same 5-fold OLS residual-state probing style as the paper
+- target transforms:
+  - raw scalar targets, with non-finite rows excluded target-wise
+  - stable `log1p` targets, so exploding powers such as `B^N` or `D^N` do not dominate purely by scale
+- comparison metric: maximum `% gap-to-ceiling closed` over input/L0--L9, i.e. the fraction of the initialized model's remaining `R²` gap closed by training, plus trained max `R²` for context
+
+Representative raw-target results:
+
+| Target | `D_ones` max % gap closed | `O[0]` max % gap closed | `O[1]` max % gap closed | Trained max `R²` range |
+| --- | ---: | ---: | ---: | ---: |
+| `B^D` | 98 | 53 | 64 | 0.86--1.00 |
+| `D^B` | 92 | 43 | 31 | -0.02--0.95 |
+| `N^B` | 0 | 28 | 35 | 0.13--0.57 |
+| `N^D` | 53 | 3 | 17 | 0.42--0.73 |
+| `N / B^D` | 33 | 27 | 42 | 0.90--0.96 |
+| `N / D^B` | 49 | 12 | 58 | 0.91--0.98 |
+| `B / N^D` | 63 | 80 | 82 | 0.98--0.99 |
+| `B / D^N` | 95 | 72 | 92 | 0.99--1.00 |
+
+Representative log-target results:
+
+| Target | `D_ones` max % gap closed | `O[0]` max % gap closed | `O[1]` max % gap closed | Trained max `R²` range |
+| --- | ---: | ---: | ---: | ---: |
+| `log1p(B^D)` | 97 | 50 | 82 | 0.99--1.00 |
+| `log1p(D^B)` | 98 | 56 | 82 | 0.97--1.00 |
+| `log1p(N^B)` | 15 | 41 | 61 | 0.97--0.99 |
+| `log1p(N^D)` | 55 | 20 | 69 | 0.99--1.00 |
+| `log1p(N / B^D)` | 11 | 14 | 57 | 0.98--0.99 |
+| `log1p(N / D^B)` | 19 | 19 | 75 | 0.98--0.99 |
+| `log1p(B / N^D)` | 42 | 54 | 77 | 0.99--0.99 |
+| `log1p(B / D^N)` | 92 | 51 | 89 | 0.99--1.00 |
+
+Takeaways:
+
+- High decodability is not specific to the hypothesized closed-form intermediates. Many non-hypothesized symbolic permutations are highly decodable, especially on the log scale.
+- Training-induced gains are also not unique to `B^D` or `N / B^D`. Raw `B^D` does show a clear post-training gain in the output streams, but several control quantities also close substantial gap-to-ceiling.
+- This strengthens rather than weakens the paper's causal story: probes reveal a broad symbolic/geometric accessibility landscape, while the route-patching and circuit analyses identify which information is behaviorally effective.
+- Open question: the stronger question is whether any of these candidate variables are transiently causal during learning before the final solution settles. That would require a training-dynamics analysis over intermediate checkpoints, and it is a bigger but very interesting next direction. Giacomo also suggested a nice framing: these decodable-but-noncausal quantities might be the neural-network analogue of vestigial structures in biology. In other words, they may be traces of representational or computational scaffolds that were useful during learning, even if the final trained model no longer uses them as the main causal intermediates.
+
+Caveats:
+
+- Some raw targets, especially `B^N`, `D^N`, `D / N^B`, and `D / B^N`, are numerically pathological because they overflow or have near-degenerate useful variance. The raw analysis keeps the literal as-is policy but logs finite-row fractions; the `log1p` version is the cleaner scale-stabilized diagnostic.
+- The heatmaps summarize maxima over representation depth, so they answer “is this quantity decodable anywhere in these streams?” rather than “does it follow the same layer-wise trajectory as the paper quantities?”
+
+Workspace files:
+
+- script: `analysis/scratch/symbolic_permutation_probes.py`
+- results: `analysis/scratch_results/symbolic_permutation_probes/main_10layer_ptrue_v2/`
+- summary: `analysis/scratch_results/symbolic_permutation_probes/main_10layer_ptrue_v2/README_symbolic_permutation_probe.md`
+- figures: `symbolic_permutation_raw_gap_to_ceiling_heatmaps.*`, `symbolic_permutation_log1p_gap_to_ceiling_heatmaps.*`
